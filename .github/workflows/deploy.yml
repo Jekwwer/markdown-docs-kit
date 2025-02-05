@@ -1,0 +1,28 @@
+# .github/workflows/deploy.yml:
+# Deploys Markdown documentation to GitHub Pages using MkDocs.
+---
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout-code
+        uses: actions/checkout@v4.2.2
+
+      - name: setup-python
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: '3.x'
+
+      - name: install-mkdocs
+        run: pip install mkdocs mkdocs-material
+
+      - name: deploy-to-github-pages
+        run: mkdocs gh-deploy --force

@@ -1,0 +1,22 @@
+{
+  "ignorePaths": [
+    "*.json",
+    "*.yaml",
+    "*.yml",
+    ".editorconfig",
+    ".gitignore",
+    ".markdownlintignore",
+    ".prettierrc",
+    ".releaserc.js"
+  ],
+  "language": "en",
+  "useGitignore": true,
+  "version": "0.2",
+  "words": [
+    "Evgenii",
+    "Jekwwer",
+    "markdownlintignore",
+    "mkdocs",
+    "Shiliaev"
+  ]
+}

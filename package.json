@@ -1,0 +1,54 @@
+{
+  "name": "jekwwer-markdown-docs-kit",
+  "version": "1.0.0",
+  "description": "A centralized repository containing standardized documentation files for consistent use across multiple projects.",
+  "keywords": [
+    "devcontainer",
+    "documentation",
+    "github",
+    "markdown",
+    "mkdocs",
+    "vscode",
+    "template"
+  ],
+  "homepage": "https://github.com/Jekwwer/markdown-docs-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Jekwwer/markdown-docs-kit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekwwer/markdown-docs-kit.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Jekwwer",
+  "scripts": {
+    "check:links": "find . -name '*.md' -not -path './node_modules/*' | xargs markdown-link-check",
+    "check:spelling": "cspell '**/*.md' --gitignore --cache",
+    "format:code": "prettier --write --config .prettierrc .",
+    "format:check": "prettier --check --config .prettierrc .",
+    "generate:toc": "node scripts/generate-toc.js",
+    "lint:markdown": "markdownlint '**/*.md'",
+    "docs:serve": "mkdocs serve",
+    "docs:build": "mkdocs build",
+    "docs:deploy": "mkdocs gh-deploy",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "conventional-changelog": "^6.0.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "cspell": "^8.17.3",
+    "markdown-link-check": "^3.13.6",
+    "markdownlint-cli": "^0.44.0",
+    "prettier": "^3.4.2",
+    "semantic-release": "^24.2.1"
+  },
+  "overrides": {
+    "got": "^11.8.5",
+    "marked": "^4.0.10"
+  }
+}

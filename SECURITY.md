@@ -1,0 +1,49 @@
+# Security Policy
+
+This document outlines the security policy for the `markdown-docs-kit` repository
+and provides instructions for reporting vulnerabilities.
+
+## Supported Versions
+
+The `markdown-docs-kit` repository primarily provides Markdown templates and related configuration files.
+While it includes some scripts and automation, all executable functionality is derived from
+[`markdown-workspace`][markdown-workspace], which serves as its development environment.
+
+### Security Considerations
+
+- **Executable Code:** Any security vulnerabilities related to scripts, dependencies, or automation
+  originate from [`markdown-workspace`][markdown-workspace].
+  Users should refer to its [security policy][markdown-workspace-security-md] for code-related issues.
+- **Templates & Configuration:** Security concerns related to template integrity, improper handling of
+  sensitive data, or insecure configurations should be reported to this repository.
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability in this repository:
+
+1. **Private Disclosure via Email**
+   Please send an email to [report@jekwwer.com][report@jekwwer.com] with the following details:
+
+   - A detailed description of the vulnerability.
+   - Steps to reproduce the issue.
+   - Affected versions (if applicable).
+   - Any suggested fixes or workarounds.
+
+2. **Private Security Advisory on GitHub**
+   Alternatively, you can submit a report via GitHub Security Advisories:
+   - Navigate to the repository's [Security Advisories][security-advisories].
+   - Click **Create security advisory** and follow the instructions.
+
+I aim to respond to vulnerability reports within **72 hours**
+and provide a resolution or update within **14 days**.
+
+---
+
+For any additional questions or concerns about this security policy,
+please feel free to contact me at [evgenii.shiliaev@jekwwer.com][evgenii.shiliaev@jekwwer.com].
+
+[evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
+[report@jekwwer.com]: mailto:report@jekwwer.com
+[security-advisories]: https://github.com/jekwwer/markdown-docs-kit/security/advisories
+[markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
+[markdown-workspace-security-md]: https://github.com/Jekwwer/markdown-workspace/blob/main/SECURITY.md
