@@ -1,0 +1,13 @@
+# config.yml: Collects the information about the repository and the author.
+---
+# Project Information
+repo_owner: jekwwer
+repo_name: markdown-docs-kit
+project_name: Markdown Docs Kit
+
+# Contact Information
+contact_email: evgenii.shiliaev@jekwwer.com
+
+# External Links
+documentation_url: https://jekwwer.com/markdown-docs-kit
+issues_url: https://github.com/jekwwer/markdown-docs-kit/issues

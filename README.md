@@ -6,12 +6,17 @@
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/jekwwer/markdown-docs-kit?logo=librariesdotio&logoColor=%23FFFFFF)
 ![Issues](https://img.shields.io/github/issues/jekwwer/markdown-docs-kit?logo=github&link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Fissues)
 ![Maintained](https://img.shields.io/maintenance/yes/2025)
-![GitHub License](https://img.shields.io/github/license/jekwwer/markdown-docs-kit?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Fblob%2Fmain%2FLICENSE)
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)
 
 ## Project Overview 🚀
 
 This repository contains common documentation files that can be reused across multiple projects
 to maintain consistency and streamline the setup process.
+
+### Current Contents
+
+- `README.md`: A general template for project README, outlining setup instructions, usage,
+  and contribution guidelines.
 
 ## License 🛡️
 
@@ -44,8 +49,14 @@ This repository is synchronized with the [Markdown Workspace][markdown-workspace
 currently at version [v1.6.0][markdown-workspace-v1.6.0].
 The repository serves as a development foundation for working on markdown documentation effectively.
 
+---
+
+This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
+All additional content is licensed under [MIT][MIT-LICENSE].
+
 [LICENSE]: LICENSE
 [MIT-LICENSE]: MIT-LICENSE
+[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [templates-dir]: templates/
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [issues]: https://github.com/jekwwer/markdown-docs-kit/issues
