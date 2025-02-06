@@ -4,6 +4,7 @@
 repo_owner: jekwwer
 repo_name: markdown-docs-kit
 project_name: Markdown Docs Kit
+author_name: Evgenii Shiliaev
 
 # School Project Information
 school_name: Placeholder University
@@ -20,6 +21,14 @@ documentation_url: https://jekwwer.com/markdown-docs-kit
 discussions_url: https://github.com/jekwwer/markdown-docs-kit/discussions
 issues_url: https://github.com/jekwwer/markdown-docs-kit/issues
 security_url: https://github.com/jekwwer/markdown-docs-kit/security/advisories
+
+# Support and Funding
+github_username: jekwwer
+buy_me_a_coffee_username: jekwwer
+ko_fi_username: jekwwer
+liberapay_username: jekwwer
+open_collective_username: jekwwer
+patreon_username: jekwwer
 
 # Security Information
 response_time: 48
