@@ -37,13 +37,20 @@ If you discover a security vulnerability in this repository:
 I aim to respond to vulnerability reports within **72 hours**
 and provide a resolution or update within **14 days**.
 
----
+## For Further Inquiries
 
 For any additional questions or concerns about this security policy,
 please feel free to contact me at [evgenii.shiliaev@jekwwer.com][evgenii.shiliaev@jekwwer.com].
 
+---
+
+This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
+All additional content is licensed under [MIT][MIT-LICENSE].
+
+[MIT-LICENSE]: MIT-LICENSE
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [report@jekwwer.com]: mailto:report@jekwwer.com
 [security-advisories]: https://github.com/jekwwer/markdown-docs-kit/security/advisories
 [markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
 [markdown-workspace-security-md]: https://github.com/Jekwwer/markdown-workspace/blob/main/SECURITY.md
+[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
