@@ -37,6 +37,7 @@ repos:
       # Validates the syntax of YAML files
       - id: check-yaml
         name: 'validate:yaml'
+        exclude: ^templates/.github/ISSUE_TEMPLATE/config\.yml$
       # Validates the syntax of JSON files
       - id: check-json
         name: 'validate:json'

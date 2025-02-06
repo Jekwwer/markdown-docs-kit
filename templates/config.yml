@@ -15,7 +15,9 @@ contact_email: evgenii.shiliaev@jekwwer.com
 report_email: report@jekwwer.com
 
 # External Links
+contributing_url: https://github.com/jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md
 documentation_url: https://jekwwer.com/markdown-docs-kit
+discussions_url: https://github.com/jekwwer/markdown-docs-kit/discussions
 issues_url: https://github.com/jekwwer/markdown-docs-kit/issues
 security_url: https://github.com/jekwwer/markdown-docs-kit/security/advisories
 

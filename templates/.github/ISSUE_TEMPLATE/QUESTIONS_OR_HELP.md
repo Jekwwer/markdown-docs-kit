@@ -33,8 +33,8 @@ _Note: For quick questions or community discussions, please use our [Discussions
 - [ ] I have described what I've tried so far and the resources I've consulted.
 - [ ] I have added any additional context that might help in answering the question.
 
-[discussions]: https://github.com/jekwwer/markdown-docs-kit/discussions
+[discussions]: {{DISCUSSIONS_URL}}
 
-<!-- Based on the template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
+<!-- Template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
 <!-- https://github.com/Jekwwer/markdown-docs-kit -->
 <!-- Licensed under: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE -->
