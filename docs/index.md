@@ -20,6 +20,7 @@ to maintain consistency and streamline the setup process.
 - `.github/PULL_REQUEST_TEMPLATE/*`: Templates for specific pull requests, such as `bugfix`, `docs`, and `feature`.
 - `.github/ISSUE_TEMPLATE/*`: Templates for reporting bugs, requesting features, and asking questions.
 - `CODE_OF_CONDUCT.md`: Standards for behavior within the community.
+- `CONTRIBUTING.md`: Guidelines on how to contribute to the project.
 - `README.md`: A general template for project README, outlining setup instructions, usage,
   and contribution guidelines.
 - `SCHOOL_PROJECT_README.md`: A specialized README template for educational or school-related projects.
