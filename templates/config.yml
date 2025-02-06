@@ -5,6 +5,11 @@ repo_owner: jekwwer
 repo_name: markdown-docs-kit
 project_name: Markdown Docs Kit
 
+# School Project Information
+school_name: Placeholder University
+course_name: Placeholder Course
+academic_year: 2024-2025
+
 # Contact Information
 contact_email: evgenii.shiliaev@jekwwer.com
 

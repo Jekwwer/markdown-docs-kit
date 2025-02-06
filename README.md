@@ -17,6 +17,7 @@ to maintain consistency and streamline the setup process.
 
 - `README.md`: A general template for project README, outlining setup instructions, usage,
   and contribution guidelines.
+- `SCHOOL_PROJECT_README.md`: A specialized README template for educational or school-related projects.
 
 ## License 🛡️
 
