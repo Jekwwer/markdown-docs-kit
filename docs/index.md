@@ -15,6 +15,7 @@ to maintain consistency and streamline the setup process.
 
 ### Current Contents
 
+- `CODE_OF_CONDUCT.md`: Standards for behavior within the community.
 - `README.md`: A general template for project README, outlining setup instructions, usage,
   and contribution guidelines.
 - `SCHOOL_PROJECT_README.md`: A specialized README template for educational or school-related projects.
