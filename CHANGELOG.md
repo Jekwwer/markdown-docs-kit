@@ -1,20 +1,6 @@
 # Changelog
 
 ## 1.1.0 - 2025-02-06
-### ⚠ BREAKING CHANGES
-
-* **funding:** - To provide a template for configuring funding options for the project.
-* **funding:** - To make it easier for users to set up funding platforms for their projects.
-* **funding:** - To inform contributors about the available funding options for the project.
-
-[IMPACT]
-* **funding:** - Users can now easily configure funding options for their projects.
-* **funding:** - Contributors can see the available funding platforms and contribute to the project.
-
-[REFERENCES]
- - https://github.com/Jekwwer/markdown-docs-kit
- - https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
-
 ### 🚀 New Features
 
 * **coc:** add Code of Conduct template and update existing ([57f5fd4](https://github.com/jekwwer/markdown-docs-kit/commit/57f5fd4ffb5a85ad6c183c326115e91fb7b18ccf))
