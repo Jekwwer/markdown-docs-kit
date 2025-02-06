@@ -15,6 +15,7 @@ to maintain consistency and streamline the setup process.
 
 ### Current Contents
 
+- `.github/FUNDING.yml`: Information on funding options and sponsorship links.
 - `.github/PULL_REQUEST_TEMPLATE.md`: Default pull request template for general contributions.
 - `.github/PULL_REQUEST_TEMPLATE/*`: Templates for specific pull requests, such as `bugfix`, `docs`, and `feature`.
 - `.github/ISSUE_TEMPLATE/*`: Templates for reporting bugs, requesting features, and asking questions.

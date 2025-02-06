@@ -1,0 +1,12 @@
+# .github/FUNDING.yml:
+# Lists funding platforms where {{AUTHOR_NAME}} accepts contributions.
+---
+github: { { GITHUB_USERNAME } }
+buy_me_a_coffee: { { BUY_ME_A_COFFEE_USERNAME } }
+ko_fi: { { KO_FI_USERNAME } }
+liberapay: { { LIBERAPAY_USERNAME } }
+open_collective: { { OPEN_COLLECTIVE_USERNAME } }
+patreon: { { PATREON_USERNAME } }
+# Template by Evgenii Shiliaev - Licensed under CC BY 4.0
+# https://github.com/Jekwwer/markdown-docs-kit
+# Licensed under: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
