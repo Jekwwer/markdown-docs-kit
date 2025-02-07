@@ -1,6 +1,6 @@
 {
   "name": "jekwwer-markdown-docs-kit",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A centralized repository containing standardized documentation files for consistent use across multiple projects.",
   "keywords": [
     "devcontainer",

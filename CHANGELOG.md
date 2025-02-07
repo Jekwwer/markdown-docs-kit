@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.2.0 - 2025-02-07
+### 🚀 New Features
+
+* **contributing:** add CONTRIBUTING.md and its template ([732c12c](https://github.com/jekwwer/markdown-docs-kit/commit/732c12ce3ea67ad1755eea42fb0f0039e9b32929))
+* **templates:** add GitHub profile link to templates ([65fed09](https://github.com/jekwwer/markdown-docs-kit/commit/65fed09a205af7643469ed28ed7e03976da5a0cc))
+
+### 🐞 Bug Fixes
+
+* **funding:** add mussing placeholders for funding details ([f60658d](https://github.com/jekwwer/markdown-docs-kit/commit/f60658dd3f60a37cc5e40bdbcb763ac9a722d4aa))
+
+### 📦 Chores
+
+* **changelog:** remove false positive breaking change part ([e349425](https://github.com/jekwwer/markdown-docs-kit/commit/e34942539b43ca7cd684512ef516e09f14e7746d))
+
 ## 1.1.0 - 2025-02-06
 ### 🚀 New Features
 
