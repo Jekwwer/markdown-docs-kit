@@ -48,8 +48,8 @@ please feel free to contact me at [{{CONTACT_EMAIL}}][{{CONTACT_EMAIL}}].
 
 ---
 
-This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
-All additional content is licensed under [LICENSE][LICENSE].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
+licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
 
 ---
 
@@ -61,4 +61,5 @@ All additional content is licensed under [LICENSE][LICENSE].
 [security-advisories]: {{SECURITY_URL}}
 [{{LATEST_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{LATEST_VERSION}}
 [{{PREVIOUS_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{PREVIOUS_VERSION}}
+[evgenii-shiliaev-github]: https://github.com/Jekwwer
 [markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE

@@ -52,8 +52,8 @@ For questions, reach out via [{{CONTACT_EMAIL}}][{{CONTACT_EMAIL}}] or open an [
 
 ---
 
-This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
-All additional content is licensed under [LICENSE][LICENSE].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
+licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
 
 ---
 
@@ -64,4 +64,5 @@ All additional content is licensed under [LICENSE][LICENSE].
 [{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
 [documentation]: {{DOCUMENTATION_URL}}
 [issues]: {{ISSUES_URL}}
+[evgenii-shiliaev-github]: https://github.com/Jekwwer
 [markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE

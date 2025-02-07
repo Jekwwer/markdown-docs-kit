@@ -59,13 +59,14 @@ The repository serves as a development foundation for working on markdown docume
 
 ---
 
-This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][markdown-docs-kit-license].
 All additional content is licensed under [MIT][MIT-LICENSE].
 
 [LICENSE]: LICENSE
 [MIT-LICENSE]: MIT-LICENSE
 [markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [templates-dir]: templates/
+[evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [issues]: https://github.com/jekwwer/markdown-docs-kit/issues
 [markdown-workspace]: https://github.com/Jekwwer/markdown-workspace

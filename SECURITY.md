@@ -44,10 +44,11 @@ please feel free to contact me at [evgenii.shiliaev@jekwwer.com][evgenii.shiliae
 
 ---
 
-This document is based on a template by Evgenii Shiliaev, licensed under [CC BY 4.0][markdown-docs-kit-license].
-All additional content is licensed under [MIT][MIT-LICENSE].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
+licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [MIT][MIT-LICENSE].
 
 [MIT-LICENSE]: MIT-LICENSE
+[evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [report@jekwwer.com]: mailto:report@jekwwer.com
 [security-advisories]: https://github.com/jekwwer/markdown-docs-kit/security/advisories
