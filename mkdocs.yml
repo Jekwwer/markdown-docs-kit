@@ -1,6 +1,6 @@
 # mkdocs.yml: Configures the MkDocs documentation site.
 ---
-site_name: Jekwwer's Common Docs
+site_name: Jekwwer's Markdown Docs Kit
 site_url: https://jekwwer.github.io/markdown-docs-kit/
 theme:
   name: material
