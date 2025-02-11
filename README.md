@@ -25,6 +25,7 @@ to maintain consistency and streamline the setup process.
   and contribution guidelines.
 - `SCHOOL_PROJECT_README.md`: A specialized README template for educational or school-related projects.
 - `SECURITY.md`: Guidelines for securely reporting vulnerabilities and related contact details.
+- `STYLEGUIDE.md`: Coding and documentation conventions for consistency and maintainability.
 
 ## License 🛡️
 
