@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.0 - 2025-02-11
+### 🚀 New Features
+
+* **styleguide:** add STYLEGUIDE.md and update related documentation ([1f96ab4](https://github.com/jekwwer/markdown-docs-kit/commit/1f96ab433dd8b6e6d674a8c01182540b3abf77a6))
+
+### 📦 Chores
+
+* **mkdocs:** update site name in mkdocs.yml ([a0c8e0d](https://github.com/jekwwer/markdown-docs-kit/commit/a0c8e0d9f0d6af874f8f0ff28403f0f90b37c433))
+
 ## 1.2.0 - 2025-02-07
 ### 🚀 New Features
 
