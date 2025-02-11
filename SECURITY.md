@@ -12,8 +12,8 @@ While it includes some scripts and automation, all executable functionality is d
 ### Security Considerations
 
 - **Executable Code:** Any security vulnerabilities related to scripts, dependencies, or automation
-  originate from [`markdown-workspace`][markdown-workspace].
-  Users should refer to its [security policy][markdown-workspace-security-md] for code-related issues.
+  originate from [`markdown-workspace`][jekwwer-markdown-workspace].
+  Users should refer to its [security policy][jekwwer-markdown-workspace-security-md] for code-related issues.
 - **Templates & Configuration:** Security concerns related to template integrity, improper handling of
   sensitive data, or insecure configurations should be reported to this repository.
 
@@ -45,13 +45,13 @@ please feel free to contact me at [evgenii.shiliaev@jekwwer.com][evgenii.shiliae
 ---
 
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
-licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [MIT][MIT-LICENSE].
+licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [MIT][MIT_LICENSE].
 
-[MIT-LICENSE]: MIT-LICENSE
+[MIT_LICENSE]: MIT-LICENSE
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [report@jekwwer.com]: mailto:report@jekwwer.com
 [security-advisories]: https://github.com/jekwwer/markdown-docs-kit/security/advisories
-[markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
-[markdown-workspace-security-md]: https://github.com/Jekwwer/markdown-workspace/blob/main/SECURITY.md
-[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
+[jekwwer-markdown-workspace-security-md]: https://github.com/Jekwwer/markdown-workspace/blob/main/SECURITY.md
+[jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE

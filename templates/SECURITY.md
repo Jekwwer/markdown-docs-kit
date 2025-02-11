@@ -49,17 +49,17 @@ please feel free to contact me at [{{CONTACT_EMAIL}}][{{CONTACT_EMAIL}}].
 ---
 
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
-licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
+licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
 
 ---
 
-© Evgenii Shiliaev | Licensed under [CC BY 4.0][markdown-docs-kit-license]
+© Evgenii Shiliaev | Licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]
 
 [LICENSE]: LICENSE
-[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
-[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
 [security-advisories]: {{SECURITY_URL}}
-[{{LATEST_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{LATEST_VERSION}}
-[{{PREVIOUS_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{PREVIOUS_VERSION}}
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
-[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
+[{{LATEST_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{LATEST_VERSION}}
+[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
+[{{PREVIOUS_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{PREVIOUS_VERSION}}

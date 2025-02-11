@@ -84,13 +84,13 @@ I value your time and effort—thank you for contributing!
 
 ---
 
-This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][markdown-docs-kit-license].
-All additional content is licensed under [MIT][MIT-LICENSE].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license].
+All additional content is licensed under [MIT][MIT_LICENSE].
 
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
-[MIT-LICENSE]: MIT-LICENSE
+[MIT_LICENSE]: MIT-LICENSE
 [STYLEGUIDE]: STYLEGUIDE.md
 [discussions]: https://github.com/jekwwer/markdown-docs-kit/discussions
 [issues]: https://github.com/jekwwer/markdown-docs-kit/issues
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
-[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE

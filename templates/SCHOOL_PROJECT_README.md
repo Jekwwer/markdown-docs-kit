@@ -67,16 +67,16 @@ For questions, reach out via [{{CONTACT_EMAIL}}][{{CONTACT_EMAIL}}] or open an [
 ---
 
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
-licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
+licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [LICENSE][LICENSE].
 
 ---
 
-© Evgenii Shiliaev | Licensed under [CC BY 4.0][markdown-docs-kit-license]
+© Evgenii Shiliaev | Licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]
 
 [CONTRIBUTING]: CONTRIBUTING.md
 [LICENSE]: LICENSE
-[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
 [documentation]: {{DOCUMENTATION_URL}}
-[issues]: {{ISSUES_URL}}
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
-[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[issues]: {{ISSUES_URL}}
+[jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}

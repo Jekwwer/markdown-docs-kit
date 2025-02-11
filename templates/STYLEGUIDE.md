@@ -381,6 +381,6 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 [SECURITY]: SECURITY.md
 [discussions]: {{DISCUSSIONS_URL}}
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
-[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
 [issues]: {{ISSUES_URL}}
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}

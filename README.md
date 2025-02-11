@@ -30,11 +30,11 @@ to maintain consistency and streamline the setup process.
 ## License 🛡️
 
 This repository is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**
-for the Markdown templates located in the [`templates/`][templates-dir] directory.
+for the Markdown templates located in the [`templates/`][TEMPLATES_DIR] directory.
 You **must** provide attribution when using them (see [LICENSE][LICENSE]).
 
 The development environment (scripts, configuration, and tooling) is based on
-[markdown-workspace][markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][MIT-LICENSE]).
+[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][MIT_LICENSE]).
 
 ## Usage 🛠️
 
@@ -54,21 +54,21 @@ For questions, reach out via [evgenii.shiliaev@jekwwer.com][evgenii.shiliaev@jek
 
 ### Notes
 
-This repository is synchronized with the [Markdown Workspace][markdown-workspace],
-currently at version [v1.6.0][markdown-workspace-v1.6.0].
+This repository is synchronized with the [Markdown Workspace][jekwwer-markdown-workspace],
+currently at version [v1.6.0][jekwwer-markdown-workspace-v1.6.0].
 The repository serves as a development foundation for working on markdown documentation effectively.
 
 ---
 
-This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][markdown-docs-kit-license].
-All additional content is licensed under [MIT][MIT-LICENSE].
+This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license].
+All additional content is licensed under [MIT][MIT_LICENSE].
 
 [LICENSE]: LICENSE
-[MIT-LICENSE]: MIT-LICENSE
-[markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
-[templates-dir]: templates/
+[MIT_LICENSE]: MIT-LICENSE
+[TEMPLATES_DIR]: templates/
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [issues]: https://github.com/jekwwer/markdown-docs-kit/issues
-[markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
-[markdown-workspace-v1.6.0]: https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0
+[jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
+[jekwwer-markdown-workspace-v1.6.0]: https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0
