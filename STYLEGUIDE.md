@@ -602,6 +602,6 @@ All additional content is licensed under [MIT][MIT_LICENSE].
 [discussions]: https://github.com/Jekwwer/markdown-docs-kit/discussions
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
-[issues]: https://github.com/jekwwer/markdown-docs-kit/issues
+[issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace

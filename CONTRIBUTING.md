@@ -21,7 +21,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
    To keep your fork up-to-date with the original repository:
 
    ```bash
-   git remote add upstream https://github.com/jekwwer/markdown-docs-kit.git
+   git remote add upstream https://github.com/Jekwwer/markdown-docs-kit.git
    ```
 
 4. **Install Dependencies** (if applicable):
@@ -90,7 +90,7 @@ All additional content is licensed under [MIT][MIT_LICENSE].
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [MIT_LICENSE]: MIT-LICENSE
 [STYLEGUIDE]: STYLEGUIDE.md
-[discussions]: https://github.com/jekwwer/markdown-docs-kit/discussions
-[issues]: https://github.com/jekwwer/markdown-docs-kit/issues
+[discussions]: https://github.com/Jekwwer/markdown-docs-kit/discussions
+[issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE

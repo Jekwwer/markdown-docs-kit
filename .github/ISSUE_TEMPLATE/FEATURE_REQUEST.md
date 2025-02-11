@@ -67,7 +67,7 @@ _Note: For small adjustments or minor changes, please use our [Discussions][disc
 - [ ] I have checked that this feature has not already been requested.
 - [ ] I have discussed this feature with the maintainers/community.
 
-[discussions]: https://github.com/jekwwer/markdown-docs-kit/discussions
+[discussions]: https://github.com/Jekwwer/markdown-docs-kit/discussions
 
 <!-- Based on the template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
 <!-- https://github.com/Jekwwer/markdown-docs-kit -->

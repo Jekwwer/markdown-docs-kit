@@ -1,10 +1,10 @@
 # Markdown Docs Kit
 
-![GitHub Release](https://img.shields.io/github/v/release/jekwwer/markdown-docs-kit?logo=github&link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
-![GitHub Release Date](https://img.shields.io/github/release-date/jekwwer/markdown-docs-kit?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
-![GitHub commits since latest release](https://img.shields.io/github/commits-since/jekwwer/markdown-docs-kit/latest?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/jekwwer/markdown-docs-kit?logo=librariesdotio&logoColor=%23FFFFFF)
-![Issues](https://img.shields.io/github/issues/jekwwer/markdown-docs-kit?logo=github&link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Fissues)
+![GitHub Release](https://img.shields.io/github/v/release/Jekwwer/markdown-docs-kit?logo=github&link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
+![GitHub Release Date](https://img.shields.io/github/release-date/Jekwwer/markdown-docs-kit?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/Jekwwer/markdown-docs-kit/latest?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/Jekwwer/markdown-docs-kit?logo=librariesdotio&logoColor=%23FFFFFF)
+![Issues](https://img.shields.io/github/issues/Jekwwer/markdown-docs-kit?logo=github&link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Fissues)
 ![Maintained](https://img.shields.io/maintenance/yes/2025)
 ![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)
 
@@ -68,7 +68,7 @@ All additional content is licensed under [MIT][MIT_LICENSE].
 [TEMPLATES_DIR]: templates/
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
-[issues]: https://github.com/jekwwer/markdown-docs-kit/issues
+[issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
 [jekwwer-markdown-workspace-v1.6.0]: https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0

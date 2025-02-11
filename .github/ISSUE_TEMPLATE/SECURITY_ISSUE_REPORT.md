@@ -45,7 +45,7 @@ _Note: For any security issues, please contact me privately at [report@jekwwer.c
 - [ ] I have provided steps to reproduce the issue and an assessment of the potential impact.
 
 [report@jekwwer.com]: mailto:report@jekwwer.com
-[security-advisories]: https://github.com/jekwwer/markdown-docs-kit/security/advisories
+[security-advisories]: https://github.com/Jekwwer/markdown-docs-kit/security/advisories
 
 <!-- Based on the template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
 <!-- https://github.com/Jekwwer/markdown-docs-kit -->
