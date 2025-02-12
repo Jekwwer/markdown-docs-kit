@@ -56,10 +56,10 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 © Evgenii Shiliaev | Licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]
 
 [LICENSE]: LICENSE
-[security-advisories]: {{SECURITY_URL}}
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[security-advisories]: {{SECURITY_URL}}
 [{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
 [{{LATEST_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{LATEST_VERSION}}
-[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
 [{{PREVIOUS_VERSION}}]: https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}/tree/{{PREVIOUS_VERSION}}
+[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}

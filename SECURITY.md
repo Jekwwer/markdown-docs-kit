@@ -50,8 +50,8 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 [MIT_LICENSE]: MIT-LICENSE
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
-[report@jekwwer.com]: mailto:report@jekwwer.com
-[security-advisories]: https://github.com/Jekwwer/markdown-docs-kit/security/advisories
 [jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
 [jekwwer-markdown-workspace-security-md]: https://github.com/Jekwwer/markdown-workspace/blob/main/SECURITY.md
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[report@jekwwer.com]: mailto:report@jekwwer.com
+[security-advisories]: https://github.com/Jekwwer/markdown-docs-kit/security/advisories

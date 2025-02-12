@@ -44,8 +44,8 @@ _Note: For any security issues, please contact me privately at [{{REPORT_EMAIL}}
 - [ ] I understand the security implications of this report and have provided detailed information responsibly.
 - [ ] I have provided steps to reproduce the issue and an assessment of the potential impact.
 
-[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
 [security-advisories]: {{SECURITY_URL}}
+[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
 
 <!-- Template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
 <!-- https://github.com/Jekwwer/markdown-docs-kit -->
