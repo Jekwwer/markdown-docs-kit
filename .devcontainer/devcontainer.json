@@ -7,6 +7,14 @@
       "version": "3.12"
     }
   },
+  "postCreateCommand": "npm install && pip install pre-commit mkdocs mkdocs-material && pre-commit install",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "mkdocs-server",
+      "onAutoForward": "openBrowser"
+    }
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -14,7 +22,7 @@
         "catppuccin.catppuccin-vsc-icons",
         "editorconfig.editorconfig",
         "esbenp.prettier-vscode",
-        "streetsidesoftware.code-spell-checker",
+        "foxundermoon.shell-format",
         "github.copilot",
         "github.copilot-chat",
         "github.vscode-github-actions",
@@ -23,6 +31,7 @@
         "ms-vscode-remote.remote-containers",
         "redhat.vscode-yaml",
         "shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker",
         "yzhang.markdown-all-in-one"
       ],
       "settings": {
@@ -51,14 +60,6 @@
         "workbench.iconTheme": "catppuccin-macchiato",
         "yaml.format.enable": true
       }
-    }
-  },
-  "postCreateCommand": "npm install && pip install pre-commit mkdocs mkdocs-material && pre-commit install",
-  "forwardPorts": [8000],
-  "portsAttributes": {
-    "8000": {
-      "label": "mkdocs-server",
-      "onAutoForward": "openBrowser"
     }
   }
 }
