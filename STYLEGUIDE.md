@@ -130,7 +130,7 @@ The repository uses naming styles tailored to each file type:
 
 - **Documentation Files:**
   Key files (e.g., `CHANGELOG.md`, `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `README.md`, `SECURITY.md`) are named using
-  **SCREAMING_SNAKE_CASE** (uppercase with underscores).
+  **SCREAMING_SNAKE_CASE** (uppercase with underscores). Files within the `docs` directory should be named in lowercase.
 
 - **Configuration Files:**
   Files that configure tools (e.g., `cspell.json`, `.editorconfig`, `mkdocs.yml`, `package.json`, `package-lock.json`,
@@ -207,60 +207,6 @@ For this project:
 - **JavaScript:**
   Use **camelCase** (e.g., `initializeApp`).
 
-### Markdown References
-
-- **Reference-Style Links:**
-  Use reference-style links for clarity. For example:
-
-  ```markdown
-  [info][link]
-
-  [link]: https://example.com
-  ```
-
-- **Local References:**
-  For links to repository-related documents (e.g., CONTRIBUTING.md or CODE_OF_CONDUCT.md) or internal sections,
-  use **SCREAMING_SNAKE_CASE** for link identifiers and omit the file extension for documents.
-  For example:
-
-  ```markdown
-  See our [Code of Conduct][CODE_OF_CONDUCT].
-
-  [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
-  ```
-
-  And for internal sections:
-
-  ```markdown
-  See [File Naming Conventions][FILE_NAMING_CONVENTIONS].
-
-  [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
-  ```
-
-  **Note:** Local references should always appear at the top and be sorted alphabetically. For example:
-
-  ```markdown
-  [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
-  [SECURITY]: SECURITY.md
-  [external-link]: https://example.com
-  ```
-
-- **External Links:**
-  For links that reference external resources, use **kebab-case** for link identifiers. For example:
-
-  ```markdown
-  [info][external-link]
-
-  [external-link]: https://example.com
-  ```
-
-  **Note:** External references should be sorted alphabetically and always appear below local references. For example:
-
-  ```markdown
-  [SECURITY]: SECURITY.md
-  [external-link]: https://example.com
-  ```
-
 ### Files
 
 - See [File Naming Conventions][FILE_NAMING_CONVENTIONS].
@@ -273,6 +219,9 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
 
 - **General:**
   Use **2 spaces** per indentation level throughout the project. Tabs are not permitted.
+
+- **Shell Scripts Exception:**
+  In shell scripts, use **4 spaces** per indentation level.
 
 ### Line Length
 
@@ -294,20 +243,30 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
 
 ### Comments and Documentation
 
-- **Inline Comments:**
-  Use concise inline comments on the same line or directly above the code they explain.
-- **Block Comments:**
-  Reserve block comments for describing larger sections of logic or complex code. For JavaScript,
-  consider using JSDoc-style comments for documenting functions.
 - **General Guidance:**
   All comments should enhance clarity and avoid redundancy with well-named functions and variables.
   Comments should not exceed the maximum line length.
+- **Inline Comments:**
+  Use concise inline comments on the same line or directly above the code they explain.
+- **Block Comments:**
+  Reserve block comments for describing larger sections of logic or complex code.
+  For JavaScript, consider using JSDoc-style comments for documenting functions.
+- **File Header Comments:**
+  Every file should begin with a header comment (except for files in `.json`, Markdown, and `LICENSE` files)
+  that provides a short, third-person description of the file's purpose. For example:
+
+  ```plaintext
+  # .pre-commit-config.yaml: Sets up pre-commit hooks to automate code quality checks.
+  ```
+
+  If a file starts with a shebang (e.g., `#!/bin/bash`),
+  place the header comment on the line immediately following the shebang.
 
 ### EditorConfig
 
 - **Purpose:**
   The `.editorconfig` file ensures consistent coding styles across all editors by specifying:
-  - **Indentation:** 2 spaces (no tabs)
+  - **Indentation:** 2 spaces (4 in shell scripts)
   - **Line Endings:** Unix-style (`lf`)
   - **Charset:** UTF-8
   - **Max Line Length:** 88 characters for code (120 for Markdown)
@@ -325,6 +284,8 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
   Applies consistent style rules to Markdown files as configured in `.markdownlint.json` and `.markdownlintignore`.
 - **Pre-commit Hooks:**
   The `.pre-commit-config.yaml` is set up to run various checks, including formatting and linting, before commits.
+- **Yamllint:**
+  Validates YAML files during the pre-commit process to ensure they adhere to defined formatting rules.
 
 ## Commit Message Conventions
 
@@ -487,12 +448,7 @@ Quality is maintained through manual reviews and adherence to established style 
 
 ### Inline Documentation
 
-- **Shell Scripts:**
-  Use clear, concise comments to explain non-obvious logic or commands.
-  Place comments above complex code blocks to aid understanding.
-- **JavaScript:**
-  Use JSDoc-style comments for functions and methods.
-  Document parameters, return values, and any exceptions to clarify functionality.
+See [Comments and Documentation][COMMENTS-AND-DOCUMENTATION] from [Code Formatting and Style][CODE_FORMATTING_AND_STYLE].
 
 ### External Documentation
 
@@ -503,7 +459,76 @@ Quality is maintained through manual reviews and adherence to established style 
   and `LICENSE` are also maintained at the repository root.
 
 - **Additional Docs:**
-  Other external documentation is maintained in the `docs/` directory and is deployed via MkDocs to GitHub Pages.
+  Other external documentation is maintained in the `docs` directory and is deployed via MkDocs to GitHub Pages.
+
+_Note: File and directory names referenced in Markdown should always be formatted using backticks, for example:_
+
+```markdown
+Other external documentation is maintained in the `docs` directory.
+```
+
+### Markdown References
+
+- **Reference-Style Links:**
+  Use reference-style links for clarity. For example:
+
+  ```markdown
+  [info][link]
+
+  [link]: https://example.com
+  ```
+
+- **Local References:**
+  For links to repository-related documents (e.g., CONTRIBUTING.md or CODE_OF_CONDUCT.md) or internal sections,
+  use **SCREAMING_SNAKE_CASE** for link identifiers and omit the file extension for documents.
+  For example:
+
+  ```markdown
+  See our [Code of Conduct][CODE_OF_CONDUCT].
+
+  [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
+  ```
+
+  And for internal sections:
+
+  ```markdown
+  See [File Naming Conventions][FILE_NAMING_CONVENTIONS].
+
+  [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
+  ```
+
+  **Note:** Local references should always appear at the top and be sorted alphabetically. For example:
+
+  ```markdown
+  [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
+  [SECURITY]: SECURITY.md
+  [external-link]: https://example.com
+  ```
+
+- **External Links:**
+  For links that reference external resources, use **kebab-case** for link identifiers. For example:
+
+  ```markdown
+  [info][external-link]
+
+  [external-link]: https://example.com
+  ```
+
+  **Note:** External references should be sorted alphabetically and always appear below local references. For example:
+
+  ```markdown
+  [SECURITY]: SECURITY.md
+  [external-link]: https://example.com
+  ```
+
+- **Placeholders in Template Documents:**
+  In documents in the `templates` directory, placeholders should be sorted alphabetically and always appear
+  at the bottom. For example:
+
+  ```markdown
+  [LICENSE]: LICENSE
+  [{{CONTACT_EMAIL}}]: mailto:{{CONTACT_EMAIL}}
+  ```
 
 ### Documentation Tools and Best Practices
 
@@ -551,8 +576,10 @@ Quality is maintained through manual reviews and adherence to established style 
 
 ### Environment Configuration
 
+- The environment is primarily configured using `.devcontainer/devcontainer.json` for container setup,
+  along with VSCode settings and customizations.
 - The repository does not include any `.env` files.
-- Follow best practices for environment configuration if you choose to use them.
+  Follow best practices for environment configuration if you choose to use them.
 
 ## Additional Best Practices
 
@@ -594,6 +621,8 @@ This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-gith
 All additional content is licensed under [MIT][MIT_LICENSE].
 
 [CONTRIBUTING]: CONTRIBUTING.md
+[CODE_FORMATTING_AND_STYLE]: #code-formatting-and-style
+[COMMENTS-AND-DOCUMENTATION]: #comments-and-documentation
 [FILE_NAMING_CONVENTIONS]: #file-naming-conventions
 [MIT_LICENSE]: MIT-LICENSE
 [SCOPE]: #scope
