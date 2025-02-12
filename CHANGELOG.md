@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.4.0 - 2025-02-12
+### 🚀 New Features
+
+* **ci:** add artifacts upload with release process ([4b4af8c](https://github.com/Jekwwer/markdown-docs-kit/commit/4b4af8c2b332659dd33f3ac7dc378929f28b043e))
+* **devcontainer:** reorder container settings and add shell formatter extension ([91b9018](https://github.com/Jekwwer/markdown-docs-kit/commit/91b9018ad0d70c6cb618bdec47019473deb5a893))
+
+### 🐞 Bug Fixes
+
+* **links:** unify GitHub URLs for improved loading performance ([38f6ec6](https://github.com/Jekwwer/markdown-docs-kit/commit/38f6ec6db622bdeb39dd41980f93297ca8671532))
+
+### 📦 Chores
+
+* **config:** alphabetically sort placeholders in each section ([a4f4485](https://github.com/Jekwwer/markdown-docs-kit/commit/a4f4485a1561a66f3ce47f02824685232eb4d116))
+
+### 🛠️ Refactoring
+
+* **docs:** enforce Markdown References rules from STYLEGUIDE.md ([e090d44](https://github.com/Jekwwer/markdown-docs-kit/commit/e090d44f0e2516610a8f3acfae05f230b525284a))
+
 ## 1.3.0 - 2025-02-11
 ### 🚀 New Features
 
