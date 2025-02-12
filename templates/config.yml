@@ -1,10 +1,10 @@
 # config.yml: Collects the information about the repository and the author.
 ---
 # Project Information
+author_name: Evgenii Shiliaev
+project_name: Markdown Docs Kit
 repo_owner: jekwwer
 repo_name: markdown-docs-kit
-project_name: Markdown Docs Kit
-author_name: Evgenii Shiliaev
 
 # School Project Information
 school_name: Placeholder University
@@ -17,21 +17,21 @@ report_email: report@jekwwer.com
 
 # External Links
 contributing_url: https://github.com/Jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md
-documentation_url: https://jekwwer.com/markdown-docs-kit
 discussions_url: https://github.com/Jekwwer/markdown-docs-kit/discussions
+documentation_url: https://jekwwer.com/markdown-docs-kit
 issues_url: https://github.com/Jekwwer/markdown-docs-kit/issues
 security_url: https://github.com/Jekwwer/markdown-docs-kit/security/advisories
 
 # Support and Funding
-github_username: jekwwer
 buy_me_a_coffee_username: jekwwer
+github_username: jekwwer
 ko_fi_username: jekwwer
 liberapay_username: jekwwer
 open_collective_username: jekwwer
 patreon_username: jekwwer
 
 # Security Information
-response_time: 48
-resolution_time: 7
 latest_version: no_value
 previous_version: no_value
+response_time: 48
+resolution_time: 7
