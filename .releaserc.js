@@ -1,3 +1,5 @@
+const pkg = require('./package.json');
+
 module.exports = {
   branches: ['main'],
   plugins: [
@@ -99,6 +101,17 @@ module.exports = {
       },
     ],
     [
+      '@semantic-release/exec',
+      {
+        prepareCmd: `
+          mkdir -p dist &&
+          ZIP_FILE="dist/${pkg.name}-v\${nextRelease.version}.zip" &&
+          cd templates && zip -r "../$ZIP_FILE" . && cd - &&
+          echo "Created ZIP: $ZIP_FILE"
+        `,
+      },
+    ],
+    [
       '@semantic-release/github',
       {
         successComment:
@@ -108,6 +121,12 @@ module.exports = {
         failTitle: 'The automated release failed 🚨',
         releasedLabels: [
           "released<%= nextRelease.channel ? ` on @${nextRelease.channel}` : '' %>",
+        ],
+        assets: [
+          {
+            path: 'dist/*.zip',
+            label: `${pkg.name}-v\${nextRelease.version}`,
+          },
         ],
       },
     ],
