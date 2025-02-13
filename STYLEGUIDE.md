@@ -28,11 +28,7 @@ This document covers:
 - **Naming Conventions:** Standards for variables, constants, functions, and file/directory names.
 - **Code Formatting and Style:** Guidelines on indentation, line length, brace styles, comments, EditorConfig settings,
   and linting/formatting tools.
-- **Commit Message Conventions:** Formatting and structure for commit messages.
-- **Branching and Versioning:**Guidelines for managing branches and version numbers.
-- **Testing and Quality Assurance:** Methods for testing and ensuring code quality.
 - **Documentation:** Standards for creating and maintaining project documentation.
-- **Dependency and Build Management:** Guidelines for handling project dependencies and builds.
 - **Additional Best Practices:** Other practices to improve overall code quality and project maintainability.
 
 ## Project Overview
@@ -287,163 +283,6 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
 - **Yamllint:**
   Validates YAML files during the pre-commit process to ensure they adhere to defined formatting rules.
 
-## Commit Message Conventions
-
-Use the following template for commit messages. It aligns with best practices and the Conventional Commits standard,
-providing essential details about changes.
-
-### Template Structure
-
-```plaintext
-<type>(<scope>): <description>
-
-<detailed description>
-
-[FILES ADDED]
- - <list of newly added files>
-
-[FILES MODIFIED]
- - <list of updated files>
-
-[FILES REMOVED]
- - <list of removed files>
-
-[DEPENDENCIES ADDED]
- - <list of newly added dependencies>
-
-[DEPENDENCIES UPDATED]
- - <list of updated dependencies>
-
-[DEPENDENCIES REMOVED]
- - <list of removed dependencies>
-
-[FEATURES/CHANGES]
- - <list of new features, updates, or changes>
-
-[TECHNIQUES]
- - <details about methods, tools, or approaches used>
-
-[BREAKING CHANGE]
- - <description of breaking changes and user adaptation details>
-
-[PURPOSE]
- - <reason for the change or issue being addressed>
-
-[IMPACT]
- - <impact on the project, users, or performance>
-
-[FIXES/CLOSES/RESOLVES]
- - #<list of related issue numbers>
-
-[REFERENCES]
- - <links to documentation, code reviews, or other resources>
-```
-
-### Template Fields
-
-- **`<type>`:** Specifies the type of change. Common types include:
-  - `init`: Initial commit.
-  - `feat`: A new feature.
-  - `fix`: A bug fix.
-  - `security`: Security-related changes (e.g., vulnerability fixes, input validation improvements).
-  - `deps`: Updates to project dependencies.
-  - `docs`: Documentation changes.
-  - `style`: Code formatting or styling adjustments that do not affect functionality.
-  - `refactor`: Code restructuring without altering functionality.
-  - `perf`: Performance improvements.
-  - `test`: Adding or updating tests.
-  - `chore`: Maintenance tasks such as updating dependencies or build processes.
-- **`<scope>`:** _(Optional)_ Specifies the part of the codebase affected.
-- **`<description>`:** A concise, imperative summary of the change.
-- **`<detailed description>`:** _(Optional)_ A comprehensive explanation of the change.
-- **`[FILES ADDED/MODIFIED/REMOVED]`:** Lists the files affected by the commit.
-- **`[DEPENDENCIES ADDED/UPDATED/REMOVED]`:** _(if applicable)_ Details any changes to project dependencies.
-- **`[FEATURES/CHANGES]`:** Describes new features, updates, or significant changes.
-- **`[TECHNIQUES]`:** _(Optional)_ Describes methods, tools, or approaches used.
-- **`[BREAKING CHANGE]`:** _(if applicable)_ Specifies any breaking changes and necessary user adaptations.
-- **`[PURPOSE]`:** Explains the rationale behind the change.
-- **`[IMPACT]`:** Describes the impact on the project, users, or performance.
-- **`[FIXES/CLOSES/RESOLVES]`:** _(if applicable)_ References related issues or tasks (e.g., `#123`).
-- **`[REFERENCES]`:** _(if applicable)_ Links to documentation, code reviews, or other resources.
-
-### Example Commit Message
-
-```plaintext
-feat(auth): add OAuth2 login support
-
-Implemented OAuth2 login functionality, allowing users to authenticate with Google and GitHub.
-
-[FILES ADDED]
- - src/auth/oauth2.js
- - src/auth/oauth2.test.js
-
-[FILES MODIFIED]
- - src/auth/index.js
-
-[DEPENDENCIES ADDED]
- - google-auth-library
- - @octokit/auth
-
-[FEATURES/CHANGES]
- - Added OAuth2 authentication for Google and GitHub.
- - Improved error handling for authentication flows.
-
-[PURPOSE]
- - Enhance security and provide seamless third-party login support.
-
-[IMPACT]
- - Simplifies user authentication and improves overall security.
-
-[FIXES]
- - #123
-
-[REFERENCES]
- - OAuth2 Documentation: https://example.com/oauth2
-```
-
-## Branching and Versioning
-
-We use a trunk-based strategy with **Semantic Release** for automated versioning and changelog generation.
-
-### Branching Strategy
-
-Branch names should follow these conventions:
-
-- **Feature branches:** `feature/<short-description>` (e.g., `feature/add-login`)
-- **Bugfix branches:** `bugfix/<short-description>` (e.g., `bugfix/fix-auth-error`)
-- **Pre-release branches:** Use `next`, `beta`, or `alpha` (optional)
-- **Main branch:** `main`
-
-### Versioning Strategy
-
-We follow **Semantic Versioning (SemVer)** in the format **`MAJOR.MINOR.PATCH`**:
-
-- **MAJOR:** For incompatible API changes.
-- **MINOR:** For new, backward-compatible features.
-- **PATCH:** For backward-compatible bug fixes.
-
-Semantic Release automatically manages versioning based on commit messages.
-
-### Merging Guidelines
-
-- **Rebase (Preferred):**
-  Use GitHub’s **Rebase and Merge** option to maintain a clean, linear commit history.
-- **Merge (Exceptions):**
-  Use the regular merge option for larger branches with multiple contributors
-  when preserving individual commits is necessary.
-- **Squash:**
-  Generally discouraged as it loses individual commit details. If used,
-  ensure the pull request title follows the Conventional Commits format.
-
-### Pull Request Guidelines
-
-For detailed pull request guidelines, see [Submitting Pull Requests][SUBMITTING_PULL_REQUESTS] from CONTRIBUTING.md.
-
-## Testing and Quality Assurance
-
-This repository does not include automated tests since its primary deliverables are Markdown document templates.
-Quality is maintained through manual reviews and adherence to established style guidelines and linting tools.
-
 ## Documentation
 
 ### Inline Documentation
@@ -557,30 +396,6 @@ Other external documentation is maintained in the `docs` directory.
 - Documentation contributions follow the same process as code changes—submit pull requests for review
   according to the contribution guidelines.
 
-## Dependency and Build Management
-
-### Dependency Handling
-
-- The project inherits dependency management from the parent [**markdown-workspace**][jekwwer-markdown-workspace]
-  repository via `package.json` and `package-lock.json`.
-- These files may be synced fully or partially with the parent template as needed.
-- **Dependabot** is configured to monitor and update dependencies for npm packages, GitHub Actions, and Docker.
-
-### Build Scripts
-
-- There are no build scripts for the templates.
-- External documentation build commands are defined in `package.json`:
-  - `"docs:serve": "mkdocs serve"`: Serve documentation locally.
-  - `"docs:build": "mkdocs build"`: Build the documentation.
-  - `"docs:deploy": "mkdocs gh-deploy"`: Deploy documentation (restricted to maintainers).
-
-### Environment Configuration
-
-- The environment is primarily configured using `.devcontainer/devcontainer.json` for container setup,
-  along with VSCode settings and customizations.
-- The repository does not include any `.env` files.
-  Follow best practices for environment configuration if you choose to use them.
-
 ## Additional Best Practices
 
 ### Security and Privacy
@@ -627,7 +442,6 @@ All additional content is licensed under [MIT][MIT_LICENSE].
 [MIT_LICENSE]: MIT-LICENSE
 [SCOPE]: #scope
 [SECURITY]: SECURITY.md
-[SUBMITTING_PULL_REQUESTS]: CONTRIBUTING.md#Submitting-Pull-Requests
 [discussions]: https://github.com/Jekwwer/markdown-docs-kit/discussions
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com

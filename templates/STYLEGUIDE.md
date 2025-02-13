@@ -31,11 +31,7 @@ This document covers:
 - **Naming Conventions:** Standards for variables, constants, functions, and file/directory names.
 - **Code Formatting and Style:** Guidelines on indentation, line length, brace styles, comments, EditorConfig settings,
   and linting/formatting tools.
-- **Commit Message Conventions:** Formatting and structure for commit messages.
-- **Branching and Versioning:** Guidelines for managing branches and version numbers.
-- **Testing and Quality Assurance:** Methods for testing and ensuring code quality.
 - **Documentation:** Standards for creating and maintaining project documentation.
-- **Dependency and Build Management:** Guidelines for handling project dependencies and builds.
 - **Additional Best Practices:** Other practices to improve overall code quality and project maintainability.
 - _[Optional: Add or remove sections as needed.]_
 
@@ -186,62 +182,6 @@ _[ADD_TEXT: List and describe the linting and formatting tools used in the proje
 For example, Prettier, ESLint, Markdownlint.
 Include configuration details and integration into the development workflow (such as pre-commit hooks).
 
-## Commit Message Conventions
-
-_[ADD_TEXT: Provide an overview of the commit message conventions for this project.]_
-For example, mention whether you follow Conventional Commits or a custom format.
-
-### Template Structure
-
-_[ADD_TEXT: Describe the commit message template structure.]_
-For example, outline that a commit message should have a header in the format `<type>(<scope>): <description>`,
-followed by an optional detailed description and additional sections such as `[FILES ADDED]`, `[DEPENDENCIES ADDED]`,
-etc.
-
-### Template Fields
-
-_[ADD_TEXT: Explain each field in the commit message template.]_
-For example, define what `<type>` should represent (e.g., `feat`, `fix`, `chore`),
-what `<scope>` should refer to, and what to include in the detailed description and optional sections.
-
-### Example Commit Message
-
-_[ADD_TEXT: Provide an example commit message to illustrate the proper format.]_
-Include sample values for type, scope, description, and any optional sections.
-
-## Branching and Versioning
-
-_[ADD_TEXT: Provide an overview of the branching and versioning strategy for this project.]_
-
-### Branching Strategy
-
-_[ADD_TEXT: Describe the branching strategy used by the project.]_
-Include information on branch naming conventions
-(e.g., `main`, `feature/<short-description>`, `bugfix/<short-description>`, etc.) and guidelines for creating
-and merging branches.
-
-### Versioning Strategy
-
-_[ADD_TEXT: Explain the versioning strategy (e.g., Semantic Versioning: `MAJOR.MINOR.PATCH`).]_
-Describe how versioning is determined—whether manually or automatically (e.g., via Semantic Release).
-
-### Merging Guidelines
-
-_[ADD_TEXT: Provide guidelines on merging strategies.]_
-For example, explain the preferred method (e.g., rebase and merge) and any exceptions
-(e.g., when to use merge commits or squash merging).
-
-### Pull Request Guidelines
-
-_[ADD_TEXT: Describe the pull request process.]_
-Include instructions on how to create, review, and merge pull requests,
-and reference any related contribution guidelines or documents (e.g., link to CONTRIBUTING.md).
-
-## Testing and Quality Assurance
-
-_[ADD_TEXT: Provide an overview of the testing and quality assurance approach for this project.]_
-Explain why testing is important for maintaining quality.
-
 ### Automated Testing
 
 _[ADD_TEXT: Describe the automated testing strategy.]_
@@ -309,25 +249,6 @@ For example, semi-formal, technical, concise, with consistent formatting standar
 
 _[ADD_TEXT: Outline the process for contributing to documentation.]_
 Describe how to submit changes, reference CONTRIBUTING.md, and detail any review procedures for documentation updates.
-
-## Dependency and Build Management
-
-### Dependency Handling
-
-_[ADD_TEXT: Provide an overview of how dependencies are managed in the project.]_
-For example, mention if dependencies are listed in package.json, yarn.lock, or another file,
-and describe any processes or tools (e.g., Dependabot) used for dependency updates.
-
-### Build Scripts
-
-_[ADD_TEXT: Describe the build scripts or commands used in the project.]_
-For example, explain how to build, test, and deploy the project (e.g., using npm scripts, mkdocs commands, etc.).
-
-### Environment Configuration
-
-_[ADD_TEXT: Explain how environment configurations are managed.]_
-For example, specify if `.env` files are used, detail any configuration management tools,
-or note if environment configuration is minimal or not applicable.
 
 ## Additional Best Practices
 

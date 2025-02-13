@@ -29,34 +29,98 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 4. **Install Dependencies** (if applicable):
    Follow the setup instructions in the [`README.md`][README].
 
-## How to Contribute
+## Branching and Versioning
 
-### 1. Proposing Changes
+_[ADD_TEXT: Provide an overview of the branching and versioning strategy for this project.]_
 
-- Check if the change or feature you’re proposing is already discussed in [Issues][issues]
-  or [Discussions][discussions].
-- If not, open a new issue or discussion to outline your proposal.
+### Branching Strategy
 
-### 2. Submitting Pull Requests
+_[ADD_TEXT: Describe the branching strategy used by the project.]_
+Include information on branch naming conventions
+(e.g., `main`, `feature/<short-description>`, `bugfix/<short-description>`, etc.) and guidelines for creating
+and merging branches.
 
-Ensure your contribution follows the guidelines outlined in [`STYLEGUIDE.md`][STYLEGUIDE].
+### Versioning Strategy
 
-1. **Create a Branch**:
+_[ADD_TEXT: Explain the versioning strategy (e.g., Semantic Versioning: `MAJOR.MINOR.PATCH`).]_
+Describe how versioning is determined—whether manually or automatically (e.g., via Semantic Release).
+
+### Merging Guidelines
+
+_[ADD_TEXT: Provide guidelines on merging strategies.]_
+For example, explain the preferred method (e.g., rebase and merge) and any exceptions
+(e.g., when to use merge commits or squash merging).
+
+### Pull Request Guidelines
+
+_[ADD_TEXT: Describe the pull request process.]_
+Include instructions on how to create, review, and merge pull requests,
+and reference any related contribution guidelines or documents (e.g., link to CONTRIBUTING.md).
+
+## Commit Message Conventions
+
+_[ADD_TEXT: Provide an overview of the commit message conventions for this project.]_
+For example, mention whether you follow Conventional Commits or a custom format.
+
+### Template Structure
+
+_[ADD_TEXT: Describe the commit message template structure.]_
+For example, outline that a commit message should have a header in the format `<type>(<scope>): <description>`,
+followed by an optional detailed description and additional sections such as `[FILES ADDED]`, `[DEPENDENCIES ADDED]`,
+etc.
+
+### Template Fields
+
+_[ADD_TEXT: Explain each field in the commit message template.]_
+For example, define what `<type>` should represent (e.g., `feat`, `fix`, `chore`),
+what `<scope>` should refer to, and what to include in the detailed description and optional sections.
+
+### Example Commit Message
+
+_[ADD_TEXT: Provide an example commit message to illustrate the proper format.]_
+Include sample values for type, scope, description, and any optional sections.
+
+## Dependency and Build Management
+
+### Dependency Handling
+
+_[ADD_TEXT: Provide an overview of how dependencies are managed in the project.]_
+For example, mention if dependencies are listed in package.json, yarn.lock, or another file,
+and describe any processes or tools (e.g., Dependabot) used for dependency updates.
+
+### Build Scripts
+
+_[ADD_TEXT: Describe the build scripts or commands used in the project.]_
+For example, explain how to build, test, and deploy the project (e.g., using npm scripts, mkdocs commands, etc.).
+
+### Environment Configuration
+
+_[ADD_TEXT: Explain how environment configurations are managed.]_
+For example, specify if `.env` files are used, detail any configuration management tools,
+or note if environment configuration is minimal or not applicable.
+
+## Testing and Quality Assurance
+
+_[ADD_TEXT: Provide an overview of the testing and quality assurance approach for this project.]_
+Explain why testing is important for maintaining quality.
+
+## Proposing Changes
+
+1. **Check for Existing Issues**:
+   Before opening a new issue or pull request, see if it’s already discussed in
+   [Issues][issues] or
+   [Discussions][discussions].
+
+2. **Create a Branch**:
 
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
-2. **Make Changes**:
+3. **Make and Test Changes**:
+   Keep changes consistent with our [`STYLEGUIDE.md`][STYLEGUIDE].
 
-   - Ensure your changes are consistent with the project’s existing structure.
-   - Follow coding and documentation guidelines.
-
-3. **Test Your Changes**:
-
-   - Run tests if applicable, and validate your changes to avoid introducing errors.
-
-4. **Commit Your Changes**:
+4. **Commit**:
 
    ```bash
    git add .
@@ -70,9 +134,9 @@ Ensure your contribution follows the guidelines outlined in [`STYLEGUIDE.md`][ST
    ```
 
 6. **Open a Pull Request**:
-   - Navigate to the original repository.
-   - Click "Compare & pull request".
-   - Use predefined pull request templates.
+   - Go to the original repository.
+   - Click “Compare & pull request.”
+   - Fill out the PR template, referencing relevant issues or discussions.
 
 ## Code of Conduct
 
