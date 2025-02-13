@@ -1,8 +1,8 @@
 <!-- Template by Evgenii Shiliaev - Licensed under CC BY 4.0 -->
 
-# Contributing to {{REPO_OWNER}}/{{REPO_NAME}}
+# Contributing Guidelines
 
-Thank you for considering contributing to **{{REPO_NAME}}**!
+Thank you for considering contributing to **{{REPO_OWNER}}/{{REPO_NAME}}**!
 Contributions help me improve and maintain the quality of this project.
 Whether you're fixing a bug, proposing new features, or improving documentation, your efforts are greatly appreciated.
 
@@ -27,7 +27,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
    ```
 
 4. **Install Dependencies** (if applicable):
-   Follow the setup instructions in the `README.md`.
+   Follow the setup instructions in the [`README.md`][README].
 
 ## How to Contribute
 
@@ -39,7 +39,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 
 ### 2. Submitting Pull Requests
 
-Ensure your contribution follows the guidelines outlined in [STYLEGUIDE.md][STYLEGUIDE].
+Ensure your contribution follows the guidelines outlined in [`STYLEGUIDE.md`][STYLEGUIDE].
 
 1. **Create a Branch**:
 
@@ -95,6 +95,7 @@ All additional content is licensed under [LICENSE][LICENSE].
 
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [LICENSE]: LICENSE
+[README]: README.md
 [STYLEGUIDE]: STYLEGUIDE.md
 [discussions]: {{DISCUSSIONS_URL}}
 [evgenii-shiliaev-github]: https://github.com/Jekwwer

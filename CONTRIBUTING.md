@@ -1,6 +1,6 @@
-# Contributing to jekwwer/markdown-docs-kit
+# Contributing Guidelines
 
-Thank you for considering contributing to **markdown-docs-kit**!
+Thank you for considering contributing to **Jekwwer/markdown-docs-kit**!
 Contributions help me improve and maintain the quality of this project.
 Whether you're fixing a bug, proposing new features, or improving documentation, your efforts are greatly appreciated.
 
@@ -25,7 +25,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
    ```
 
 4. **Install Dependencies** (if applicable):
-   Follow the setup instructions in the `README.md`.
+   Follow the setup instructions in the [`README.md`][README].
 
 ## How to Contribute
 
@@ -37,7 +37,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 
 ### 2. Submitting Pull Requests
 
-Ensure your contribution follows the guidelines outlined in [STYLEGUIDE.md][STYLEGUIDE].
+Ensure your contribution follows the guidelines outlined in [`STYLEGUIDE.md`][STYLEGUIDE].
 
 1. **Create a Branch**:
 
@@ -79,7 +79,7 @@ Please read it to understand the expectations for behavior.
 
 ## Thank You
 
-Your contributions make **jekwwer/markdown-docs-kit** better.
+Your contributions make **Jekwwer/markdown-docs-kit** better.
 I value your time and effort—thank you for contributing!
 
 ---
@@ -89,6 +89,7 @@ All additional content is licensed under [MIT][MIT_LICENSE].
 
 [CODE_OF_CONDUCT]: CODE_OF_CONDUCT.md
 [MIT_LICENSE]: MIT-LICENSE
+[README]: README.md
 [STYLEGUIDE]: STYLEGUIDE.md
 [discussions]: https://github.com/Jekwwer/markdown-docs-kit/discussions
 [issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
