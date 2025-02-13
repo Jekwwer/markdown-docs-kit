@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.4.1 - 2025-02-13
+### 🐞 Bug Fixes
+
+* **security-docs:** enforce Markdown reference formatting rules ([7ec3d1b](https://github.com/Jekwwer/markdown-docs-kit/commit/7ec3d1b67c0a4bf5d3624e9a96285b954dca4a00))
+
+### 📖 Documentation
+
+* **contributing:** improve formatting and references in guidelines ([088195c](https://github.com/Jekwwer/markdown-docs-kit/commit/088195c88951c3b2d71f90b3c6096aff1987457b))
+* **styleguide:** update guidelines and restructure content ([8ec6223](https://github.com/Jekwwer/markdown-docs-kit/commit/8ec622364ef136dea8804beb430676209bf00716))
+
+### 📦 Chores
+
+* **config:** update repo owner casing consistency ([007dd31](https://github.com/Jekwwer/markdown-docs-kit/commit/007dd31b2eea226308baa0ede32dd2c6f6bc46f0))
+
+### 🎨 Code Style Improvements
+
+* **docs:** unify references and formatting in documentation files and templates ([d063a88](https://github.com/Jekwwer/markdown-docs-kit/commit/d063a88b7f28c459bb0f63a69664b4da511e9433))
+
 ## 1.4.0 - 2025-02-12
 ### 🚀 New Features
 
