@@ -31,10 +31,10 @@ to maintain consistency and streamline the setup process.
 
 This repository is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**
 for the Markdown templates located in the [`templates/`][templates-dir] directory.
-You **must** provide attribution when using them (see [LICENSE][LICENSE]).
+You **must** provide attribution when using them (see [LICENSE][license]).
 
 The development environment (scripts, configuration, and tooling) is based on
-[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][MIT-LICENSE]).
+[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][mit-license]).
 
 ## Prerequisites ⚙️
 
@@ -113,7 +113,7 @@ This table serves as a reference for adding new documents to meet future project
 
 ## Contributing 👥
 
-Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [Issues][issues] page.
+Contributions are welcome! Please read the [Contributing Guidelines][contributing] and check the [Issues][issues] page.
 
 ## Contact 📬
 
@@ -130,12 +130,9 @@ The repository serves as a development foundation for working on markdown docume
 ---
 
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
-licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [MIT][MIT-LICENSE].
+licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [MIT][mit-license].
 
-[CONTRIBUTING]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md
-[LICENSE]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
-[MIT-LICENSE]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/MIT-LICENSE
-[templates-dir]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/templates
+[contributing]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md
 [evgenii-shiliaev-github]: https://github.com/Jekwwer
 [evgenii.shiliaev@jekwwer.com]: mailto:evgenii.shiliaev@jekwwer.com
 [issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
@@ -143,4 +140,7 @@ licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional co
 [jekwwer-markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
 [jekwwer-markdown-workspace-v1.6.0]: https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0
 [jq-web]: https://stedolan.github.io/jq
+[license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
+[mit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/MIT-LICENSE
+[templates-dir]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/templates
 [yq-git]: https://github.com/mikefarah/yq
