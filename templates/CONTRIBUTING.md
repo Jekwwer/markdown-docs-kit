@@ -104,6 +104,33 @@ or note if environment configuration is minimal or not applicable.
 _[ADD_TEXT: Provide an overview of the testing and quality assurance approach for this project.]_
 Explain why testing is important for maintaining quality.
 
+### Automated Testing
+
+_[ADD_TEXT: Describe the automated testing strategy.]_
+Include details on which frameworks or tools are used (e.g., Jest, Mocha, etc.),
+where tests are located, and how to run them.
+
+### Manual Testing
+
+_[ADD_TEXT: Outline any manual testing procedures.]_
+Describe guidelines for exploratory testing, user acceptance testing, or any other manual processes if applicable.
+
+### Quality Assurance Processes
+
+_[ADD_TEXT: Detail the quality assurance practices in place.]_
+This may include code reviews, continuous integration, static analysis, and other QA measures.
+
+### Test Coverage and Reporting
+
+_[ADD_TEXT: Explain the expectations for test coverage.]_
+Mention tools used for tracking coverage (e.g., Istanbul, Codecov)
+and describe how test reports are generated and reviewed.
+
+### Additional Testing and QA Guidelines
+
+_[ADD_TEXT: Provide any additional guidelines related to testing and quality assurance.]_
+This might include performance testing, environment setup for tests, or any best practices specific to your project.
+
 ## Proposing Changes
 
 1. **Check for Existing Issues**:

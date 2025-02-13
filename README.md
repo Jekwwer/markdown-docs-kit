@@ -27,15 +27,6 @@ to maintain consistency and streamline the setup process.
 - `SECURITY.md`: Guidelines for securely reporting vulnerabilities and related contact details.
 - `STYLEGUIDE.md`: Coding and documentation conventions for consistency and maintainability.
 
-## License 🛡️
-
-This repository is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**
-for the Markdown templates located in the [`templates`][TEMPLATES_DIR] directory.
-You **must** provide attribution when using them (see [`LICENSE`][LICENSE]).
-
-The development environment (scripts, configuration, and tooling) is based on
-[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [`MIT-LICENSE`][MIT_LICENSE]).
-
 ## Prerequisites ⚙️
 
 Make sure the following tools are installed on your system:
@@ -114,6 +105,15 @@ This table serves as a reference for adding new documents to meet future project
 ## Contributing 👥
 
 Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [Issues][issues] page.
+
+## License 🛡️
+
+This repository is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**
+for the Markdown templates located in the [`templates`][TEMPLATES_DIR] directory.
+You **must** provide attribution when using them (see [`LICENSE`][LICENSE]).
+
+The development environment (scripts, configuration, and tooling) is based on
+[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [`MIT-LICENSE`][MIT_LICENSE]).
 
 ## Contact 📬
 
