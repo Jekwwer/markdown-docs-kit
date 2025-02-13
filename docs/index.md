@@ -111,6 +111,10 @@ This table serves as a reference for adding new documents to meet future project
 | **TODO.md**            | Lists future plans, pending features, or unresolved issues for transparency.            |
 | **USAGE.md**           | Advanced usage examples, command-line options, or API details.                          |
 
+## Contributing 👥
+
+Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [Issues][issues] page.
+
 ## Contact 📬
 
 For questions, reach out via [evgenii.shiliaev@jekwwer.com][evgenii.shiliaev@jekwwer.com] or open an [issue][issues].
@@ -128,6 +132,7 @@ The repository serves as a development foundation for working on markdown docume
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github],
 licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license]. All additional content is licensed under [MIT][MIT-LICENSE].
 
+[CONTRIBUTING]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md
 [LICENSE]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [MIT-LICENSE]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/MIT-LICENSE
 [templates-dir]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/templates
