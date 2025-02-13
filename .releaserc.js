@@ -107,6 +107,7 @@ module.exports = {
           mkdir -p dist &&
           ZIP_FILE="dist/${pkg.name}-v\${nextRelease.version}.zip" &&
           cd templates && zip -r "../$ZIP_FILE" . && cd - &&
+          zip -r "$ZIP_FILE" deploy.sh &&
           echo "Created ZIP: $ZIP_FILE"
         `,
       },

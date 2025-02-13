@@ -36,15 +36,55 @@ You **must** provide attribution when using them (see [LICENSE][LICENSE]).
 The development environment (scripts, configuration, and tooling) is based on
 [markdown-workspace][markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][MIT-LICENSE]).
 
+## Prerequisites ⚙️
+
+Make sure the following tools are installed on your system:
+
+- `curl`
+- `unzip`
+- [`jq`][jq-web]
+- [`yq`][yq-git]
+
 ## Usage 🛠️
 
-Clone the repository and copy the required documentation files:
+### Run the Deployment Script
+
+Execute the `deploy.sh` script to download the latest documentation and apply configurations:
+
+```bash
+bash deploy.sh --target <target_directory> [--config <path_to_config.yml>]
+```
+
+**Options:**
+
+- `--target <target_directory>`: Specifies where the documentation will be deployed.
+- `--config <path_to_config.yml>` _(optional)_: Path to a custom configuration file.
+  Defaults to `config.yml` in the current directory.
+- Additionally, you can override repository details using `--repo-owner` and `--repo-name` if necessary.
+
+### Manual Setup (Optional)
+
+If you prefer, manually clone the repository and copy the required documentation files:
 
 ```bash
 git clone https://github.com/Jekwwer/markdown-docs-kit.git
 ```
 
 Then customize the necessary files for your project.
+
+### Example Deployment
+
+To deploy documentation to a new repository:
+
+```bash
+bash deploy.sh --target ../my-new-repo
+```
+
+This will:
+
+- Fetch the latest release.
+- Replace placeholders using `config.yml`.
+- Deploy files to `../my-new-repo`, maintaining the folder structure.
 
 ## Contact 📬
 
@@ -72,3 +112,5 @@ licensed under [CC BY 4.0][markdown-docs-kit-license]. All additional content is
 [issues]: https://github.com/Jekwwer/markdown-docs-kit/issues
 [markdown-workspace]: https://github.com/Jekwwer/markdown-workspace
 [markdown-workspace-v1.6.0]: https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0
+[jq-web]: https://stedolan.github.io/jq
+[yq-git]: https://github.com/mikefarah/yq
