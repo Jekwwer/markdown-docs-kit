@@ -361,7 +361,7 @@ As new best practices emerge or project requirements change, please update the g
 
 Your input is valuable. If you have suggestions for improvements, clarifications, or additional guidelines,
 please reach out to the maintainers or submit an [issue][issues]. For contributing guidelines,
-refer to [CONTRIBUTING.md][CONTRIBUTING]; for security concerns, see [SECURITY.md][SECURITY];
+refer to [`CONTRIBUTING.md`][CONTRIBUTING]; for security concerns, see [`SECURITY.md`][SECURITY];
 for discussions, consult the project's [discussion board][discussions]
 or contact the project owner at [{{CONTACT_EMAIL}}][{{CONTACT_EMAIL}}].
 

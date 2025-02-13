@@ -33,8 +33,8 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 
 ### 1. Proposing Changes
 
-- Check if the change or feature you’re proposing is already discussed in [**Issues**][issues]
-  or [**Discussions**][discussions].
+- Check if the change or feature you’re proposing is already discussed in [Issues][issues]
+  or [Discussions][discussions].
 - If not, open a new issue or discussion to outline your proposal.
 
 ### 2. Submitting Pull Requests

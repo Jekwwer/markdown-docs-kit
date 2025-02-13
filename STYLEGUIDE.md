@@ -44,7 +44,7 @@ streamlining the process of updating and deploying documentation.
 
 ### Technology Stack
 
-Building on the development environment from [jekwwer-markdown-workspace][jekwwer-markdown-workspace],
+Building on the development environment from [**Jekwwer/markdown-workspace**][jekwwer-markdown-workspace],
 this project primarily uses Markdown.
 It employs MkDocs with the Material theme to serve, build, and deploy HTML documentation.
 Additional tools include:
@@ -536,7 +536,7 @@ Other external documentation is maintained in the `docs` directory.
 
 - **MkDocs:**
   External documentation is generated with MkDocs. The configuration is stored in the root-level `mkdocs.yml`,
-  and the content is in the `docs/` directory.
+  and the content is in the `docs` directory.
 
 #### Versioning Documentation
 
@@ -561,8 +561,8 @@ Other external documentation is maintained in the `docs` directory.
 
 ### Dependency Handling
 
-- The project inherits dependency management from the parent **markdown-workspace** repository via `package.json`
-  and `package-lock.json`.
+- The project inherits dependency management from the parent [**markdown-workspace**][jekwwer-markdown-workspace]
+  repository via `package.json` and `package-lock.json`.
 - These files may be synced fully or partially with the parent template as needed.
 - **Dependabot** is configured to monitor and update dependencies for npm packages, GitHub Actions, and Docker.
 
@@ -611,7 +611,7 @@ As new best practices emerge or project requirements change, please update the g
 
 Your input is valuable. If you have suggestions for improvements, clarifications, or additional guidelines,
 please reach out to the maintainers or submit an [issue][issues]. For contributing guidelines,
-refer to [CONTRIBUTING.md][CONTRIBUTING]; for security concerns, see [SECURITY.md][SECURITY];
+refer to [`CONTRIBUTING.md`][CONTRIBUTING]; for security concerns, see [`SECURITY.md`][SECURITY];
 for discussions, consult the project's [discussion board][discussions]
 or contact the project owner at [evgenii.shiliaev@jekwwer.com][evgenii.shiliaev@jekwwer.com].
 

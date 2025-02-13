@@ -2,7 +2,7 @@
 
 # Security Policy
 
-This document outlines the security policy for the `{{REPO_OWNER}}/{{REPO_NAME}}` repository
+This document outlines the security policy for the **{{REPO_OWNER}}/{{REPO_NAME}}** repository
 and provides instructions for reporting vulnerabilities.
 
 ## Supported Versions

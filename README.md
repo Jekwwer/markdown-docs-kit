@@ -30,11 +30,11 @@ to maintain consistency and streamline the setup process.
 ## License 🛡️
 
 This repository is licensed under **Creative Commons Attribution 4.0 (CC BY 4.0)**
-for the Markdown templates located in the [`templates/`][TEMPLATES_DIR] directory.
-You **must** provide attribution when using them (see [LICENSE][LICENSE]).
+for the Markdown templates located in the [`templates`][TEMPLATES_DIR] directory.
+You **must** provide attribution when using them (see [`LICENSE`][LICENSE]).
 
 The development environment (scripts, configuration, and tooling) is based on
-[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [MIT-LICENSE][MIT_LICENSE]).
+[markdown-workspace][jekwwer-markdown-workspace] and is licensed under **MIT** (see [`MIT-LICENSE`][MIT_LICENSE]).
 
 ## Usage 🛠️
 
@@ -45,6 +45,10 @@ git clone https://github.com/Jekwwer/markdown-docs-kit.git
 ```
 
 Then customize the necessary files for your project.
+
+## Contributing 👥
+
+Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [Issues][issues] page.
 
 ## Contact 📬
 
@@ -63,6 +67,7 @@ The repository serves as a development foundation for working on markdown docume
 This document is based on a template by [Evgenii Shiliaev][evgenii-shiliaev-github], licensed under [CC BY 4.0][jekwwer-markdown-docs-kit-license].
 All additional content is licensed under [MIT][MIT_LICENSE].
 
+[CONTRIBUTING]: CONTRIBUTING.md
 [LICENSE]: LICENSE
 [MIT_LICENSE]: MIT-LICENSE
 [TEMPLATES_DIR]: templates/

@@ -54,7 +54,7 @@ Summarize key takeaways, challenges faced, and the overall result of the project
 
 ## Contributing 👥
 
-Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [issues][issues] page.
+Contributions are welcome! Please read the [Contributing Guidelines][CONTRIBUTING] and check the [Issues][issues] page.
 
 ## License 🛡️
 

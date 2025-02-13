@@ -1,18 +1,18 @@
 # Security Policy
 
-This document outlines the security policy for the `markdown-docs-kit` repository
+This document outlines the security policy for the **Jekwwer/markdown-docs-kit** repository
 and provides instructions for reporting vulnerabilities.
 
 ## Supported Versions
 
-The `markdown-docs-kit` repository primarily provides Markdown templates and related configuration files.
+Thi repository primarily provides Markdown templates and related configuration files.
 While it includes some scripts and automation, all executable functionality is derived from
-[`markdown-workspace`][markdown-workspace], which serves as its development environment.
+[**Jekwwer/markdown-workspace**][jekwwer-markdown-workspace], which serves as its development environment.
 
 ### Security Considerations
 
 - **Executable Code:** Any security vulnerabilities related to scripts, dependencies, or automation
-  originate from [`markdown-workspace`][jekwwer-markdown-workspace].
+  originate from [**markdown-workspace**][jekwwer-markdown-workspace].
   Users should refer to its [security policy][jekwwer-markdown-workspace-security-md] for code-related issues.
 - **Templates & Configuration:** Security concerns related to template integrity, improper handling of
   sensitive data, or insecure configurations should be reported to this repository.
