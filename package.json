@@ -8,6 +8,7 @@
     "github",
     "markdown",
     "mkdocs",
+    "mkdocs-material",
     "vscode",
     "template"
   ],
