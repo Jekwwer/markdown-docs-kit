@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.5.0 - 2025-02-14
+### 🚀 New Features
+
+* **deployment:** add deployment script ([1ee001f](https://github.com/Jekwwer/markdown-docs-kit/commit/1ee001f59520fb1a24a7ce864c0ba59cad6cd3f6))
+
+### 🐞 Bug Fixes
+
+* **docs-index:** enforce style guide rules for external link reference style ([40b10be](https://github.com/Jekwwer/markdown-docs-kit/commit/40b10bedb943ead42befffe7245f76f81319e015))
+* **docs:** remove redundant mentions in CONTRIBUTING.md ([7817152](https://github.com/Jekwwer/markdown-docs-kit/commit/78171522c95bbec244c9c4a80a4b3aa60ba4d716))
+* **docs:** synchronize reference style with repository ([6d27c7e](https://github.com/Jekwwer/markdown-docs-kit/commit/6d27c7eadb67029d75fcc634da53b056e59cb1f9))
+* **styleguide:** enforce backtick formatting for file names in Markdown ([4b3260b](https://github.com/Jekwwer/markdown-docs-kit/commit/4b3260b7e801526f43b7c27baa87093693f76312))
+
+### 📖 Documentation
+
+* **index:** add missing Contributing section in docs/index.md ([67c3a6d](https://github.com/Jekwwer/markdown-docs-kit/commit/67c3a6dbabeb9c4f853da3a137baf292c8dd75c0))
+* **readme:** add potential future document plans ([55cc3a6](https://github.com/Jekwwer/markdown-docs-kit/commit/55cc3a601c3cd7e5031c05c7348155c51fa8219b))
+
+### 🛠️ Refactoring
+
+* **docs:** relocate license section for improved readability ([c2aab09](https://github.com/Jekwwer/markdown-docs-kit/commit/c2aab0905a226c7499a94523eaa705ba6434a61a))
+* update CONTRIBUTING.md and STYLEGUIDE.md for clarity and structure ([4219419](https://github.com/Jekwwer/markdown-docs-kit/commit/42194193b56195b41ef1944bbac9ca567c19d1fc))
+
 ## 1.4.1 - 2025-02-13
 ### 🐞 Bug Fixes
 
