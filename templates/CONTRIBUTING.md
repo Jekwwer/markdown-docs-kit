@@ -55,7 +55,7 @@ For example, explain the preferred method (e.g., rebase and merge) and any excep
 
 _[ADD_TEXT: Describe the pull request process.]_
 Include instructions on how to create, review, and merge pull requests,
-and reference any related contribution guidelines or documents (e.g., link to CONTRIBUTING.md).
+and reference any related contribution guidelines or documents.
 
 ## Commit Message Conventions
 

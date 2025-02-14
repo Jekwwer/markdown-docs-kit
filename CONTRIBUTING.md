@@ -63,7 +63,7 @@ Semantic Release automatically manages versioning based on commit messages.
 
 ### Pull Request Guidelines
 
-For detailed pull request guidelines, see [Proposing Changes][PROPOSING_CHANGES] from CONTRIBUTING.md.
+For detailed pull request guidelines, see [Proposing Changes][PROPOSING_CHANGES].
 
 ## Commit Message Conventions
 
