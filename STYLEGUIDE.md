@@ -159,16 +159,16 @@ The repository uses naming styles tailored to each file type:
 
 Key configuration files in the repository include:
 
-- **.gitignore:** Excludes files and directories from version control.
-- **.editorconfig:** Defines coding styles across editors.
-- **.markdownlint.json** and **.markdownlintignore:** Establish Markdown linting rules and exclusions.
-- **.pre-commit-config.yaml:** Specifies pre-commit hooks.
-- **.prettierrc:** Contains formatting rules.
-- **.releaserc.js:** Configures the semantic release process and versioning.
-- **cspell.json:** Sets spelling rules for consistency.
-- **mkdocs.yml:** Configures MkDocs for building and deploying documentation.
-- **package.json:** Contains project metadata, scripts, and dependency definitions.
-- **package-lock.json:** Locks dependency versions to ensure consistent installations.
+- `.gitignore`: Specifies files and directories to exclude from version control.
+- `.editorconfig`: Defines coding styles across editors.
+- `.markdownlint.json` and `.markdownlintignore`: Establish Markdown linting rules and exclusions.
+- `.pre-commit-config.yaml`: Specifies pre-commit hooks.
+- `.prettierrc`: Contains formatting rules.
+- `.releaserc.js`: Configures the semantic release process and versioning.
+- `cspell.json`: Sets spelling rules for consistency.
+- `mkdocs.yml`: Configures MkDocs for building and deploying documentation.
+- `package.json`: Contains project metadata, scripts, and dependency definitions.
+- `package-lock.json`: Locks dependency versions to ensure consistent installations.
 
 ### Assets and Resources
 
@@ -318,7 +318,7 @@ Other external documentation is maintained in the `docs` directory.
   ```
 
 - **Local References:**
-  For links to repository-related documents (e.g., CONTRIBUTING.md or CODE_OF_CONDUCT.md) or internal sections,
+  For links to repository-related documents (e.g., `CONTRIBUTING.md` or `CODE_OF_CONDUCT.md`) or internal sections,
   use **SCREAMING_SNAKE_CASE** for link identifiers and omit the file extension for documents.
   For example:
 
