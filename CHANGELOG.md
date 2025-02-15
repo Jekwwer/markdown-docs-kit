@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.1 - 2025-02-15
+### 📦 Chores
+
+* **sync:** sync with markdown-workspace v1.7.0 ([83d2c3a](https://github.com/Jekwwer/markdown-docs-kit/commit/83d2c3ae8635ce7257992277b1ffe17daf4f5a48))
+
 ## 1.5.0 - 2025-02-14
 ### 🚀 New Features
 
