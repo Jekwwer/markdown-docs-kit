@@ -31,7 +31,7 @@ Highlight key functionalities and features that make this project unique and use
 ## Installation 📦
 
 ```sh
-git clone https://github.com/your-repo.git
+git clone https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}.git
 cd your-repo
 npm install # or any other setup steps
 ```
