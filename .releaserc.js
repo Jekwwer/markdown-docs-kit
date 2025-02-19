@@ -22,32 +22,16 @@ module.exports = {
           { type: 'test', scope: 'critical', release: 'patch' },
           { type: 'test', release: false },
         ],
-        parserOpts: {
-          noteKeywords: [
-            'BREAKING CHANGE',
-            'BREAKING CHANGES',
-            '[BREAKING CHANGE]',
-            '[BREAKING CHANGES]',
-          ],
-        },
       },
     ],
     [
       '@semantic-release/release-notes-generator',
       {
         preset: 'conventionalcommits',
-        parserOpts: {
-          noteKeywords: [
-            'BREAKING CHANGE',
-            'BREAKING CHANGES',
-            '[BREAKING CHANGE]',
-            '[BREAKING CHANGES]',
-          ],
-        },
         presetConfig: {
           header: '# Release Notes',
           types: [
-            { type: 'init', section: '🎉 Initial Release' },
+            { type: 'init', section: '🎉 Initial Commit', hidden: true },
             { type: 'feat', section: '🚀 New Features' },
             { type: 'fix', section: '🐞 Bug Fixes' },
             { type: 'security', section: '🔒 Security Updates' },
@@ -66,7 +50,7 @@ module.exports = {
           groupBy: 'type',
           commitGroupsSort: (a, b) => {
             const order = [
-              '🎉 Initial Release',
+              '🎉 Initial Commit',
               '🚀 New Features',
               '🐞 Bug Fixes',
               '🔒 Security Updates',
