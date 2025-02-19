@@ -9,8 +9,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 ## Getting Started
 
 1. **Fork the Repository**:
-
-   - Click the "Fork" button on the top-right corner of the repository page to create your copy.
+   Click the "Fork" button on the top-right corner of the repository page to create your copy.
 
 2. **Clone Your Fork**:
 
@@ -135,8 +134,7 @@ This might include performance testing, environment setup for tests, or any best
 
 1. **Check for Existing Issues**:
    Before opening a new issue or pull request, see if it’s already discussed in
-   [Issues][issues] or
-   [Discussions][discussions].
+   [Issues][issues] or [Discussions][discussions].
 
 2. **Create a Branch**:
 
