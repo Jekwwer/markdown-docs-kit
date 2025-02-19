@@ -143,7 +143,7 @@ This might include performance testing, environment setup for tests, or any best
    ```
 
 3. **Make and Test Changes**:
-   Keep changes consistent with our [`STYLEGUIDE.md`][STYLEGUIDE].
+   Keep changes consistent with the repository's [`STYLEGUIDE.md`][STYLEGUIDE].
 
 4. **Commit**:
 

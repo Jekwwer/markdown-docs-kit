@@ -271,7 +271,7 @@ Quality is maintained through manual reviews and adherence to established style 
    ```
 
 3. **Make and Test Changes**:
-   Keep changes consistent with our [`STYLEGUIDE.md`][STYLEGUIDE].
+   Keep changes consistent with the repository's [`STYLEGUIDE.md`][STYLEGUIDE].
 
 4. **Commit**:
 
