@@ -5,12 +5,12 @@
 
 ## Our Pledge
 
-I pledge to make participation in this project a harassment-free experience for everyone, regardless of age, body size,
+We pledge to make participation in this project a harassment-free experience for everyone, regardless of age, body size,
 visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience,
 education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity
 and orientation.
 
-I am committed to acting and interacting in ways that contribute to an open, welcoming, diverse, inclusive, and healthy
+We are committed to acting and interacting in ways that contribute to an open, welcoming, diverse, inclusive, and healthy
 project environment.
 
 ## Our Standards
@@ -20,7 +20,7 @@ Examples of behavior that contribute to a positive environment include:
 - Demonstrating empathy and kindness toward others
 - Being respectful of differing opinions, viewpoints, and experiences
 - Giving and gracefully accepting constructive feedback
-- Taking responsibility and learning from any mistakes made
+- Taking responsibility and learning from mistakes
 - Focusing on what is best for the project as a whole
 
 Examples of unacceptable behavior include:
@@ -46,8 +46,7 @@ the project in public spaces.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported
-at [{{REPORT_EMAIL}}][{{REPORT_EMAIL}}].
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported at [{{REPORT_EMAIL}}][{{REPORT_EMAIL}}].
 All complaints will be reviewed and addressed promptly and fairly, respecting the privacy and security of the reporter.
 
 ## Enforcement Guidelines
@@ -103,5 +102,5 @@ Translations are available [here][contributor-covenant-translations].
 [jekwwer-markdown-docs-kit]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/templates/CODE_OF_CONDUCT.md
 [jekwwer-markdown-docs-kit-license]: https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE
 [mozilla-code-of-conduct]: https://github.com/mozilla/diversity
-[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
+[{{REPORT_EMAIL}}]: mailto:{{REPORT_EMAIL}}
