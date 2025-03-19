@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.5.2 - 2025-03-19
+### 🐞 Bug Fixes
+
+* **CODE_OF_CONDUCT.md:** update to use inclusive language for collective responsibility ([c8420b1](https://github.com/Jekwwer/markdown-docs-kit/commit/c8420b1a62d4e0ceff2b144e507f5485afabdc0b))
+* **CONTRIBUTING.md-template:** remove unnecessary bullet point ([60397cb](https://github.com/Jekwwer/markdown-docs-kit/commit/60397cb1868ec0c8f111c6f558199570eb4958a2))
+
+### 📦 Dependency Updates
+
+* **pre-commit:** update pre-commit hooks to latest versions ([0c5d5fe](https://github.com/Jekwwer/markdown-docs-kit/commit/0c5d5fe19a4982d3bcdd5df121720f137e0e2c04))
+
+### 📖 Documentation
+
+* **CONTRIBUTING.md:** update guide to align with latest templates and insights ([a306511](https://github.com/Jekwwer/markdown-docs-kit/commit/a3065119c73a498b94331e43c43ff9b4e0dded92))
+* **templates:** add placeholders for repo info in README templates ([1051111](https://github.com/Jekwwer/markdown-docs-kit/commit/1051111bbf413f124c2b0c04400225b1a1e4ea97))
+
+### 📦 Chores
+
+* **docs:** remove template attribution comments ([c7776d0](https://github.com/Jekwwer/markdown-docs-kit/commit/c7776d0f5b7e7d38574528fe395e9b3408b18770))
+* **sync:** sync with markdown-workspace v1.7.1 ([b809633](https://github.com/Jekwwer/markdown-docs-kit/commit/b8096338f53dfd710c27f2b104dc13f5b9b32210))
+
+### 🛠️ Refactoring
+
+* **docs:** replace first-person plural references with neutral terms ([b00ec19](https://github.com/Jekwwer/markdown-docs-kit/commit/b00ec19db17b395492bde613f8a273b2aa9dc02c))
+
 ## 1.5.1 - 2025-02-15
 ### 📦 Chores
 
