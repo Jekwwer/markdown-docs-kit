@@ -7,6 +7,7 @@ Whether you're fixing a bug, proposing new features, or improving documentation,
 ## Getting Started
 
 1. **Fork the Repository**:
+
    Click the "Fork" button on the top-right corner of the repository page to create your copy.
 
 2. **Clone Your Fork**:
