@@ -40,21 +40,8 @@ streamlining the process of updating and deploying documentation.
 
 ### Technology Stack
 
-Building on the development environment from [**Jekwwer/markdown-workspace**][jekwwer-markdown-workspace],
-this project primarily uses Markdown.
-It employs MkDocs with the Material theme to serve, build, and deploy HTML documentation.
-Additional tools include:
-
-- **check:links:** `find . -name '*.md' -not -path './node_modules/*' | xargs markdown-link-check`
-- **check:spelling:** `cspell '**/*.md' --gitignore --cache`
-- **format:code:** `prettier --write --config .prettierrc .`
-- **format:check:** `prettier --check --config .prettierrc .`
-- **generate:toc:** `node scripts/generate-toc.js`
-- **lint:markdown:** `markdownlint '**/*.md'`
-- **docs:serve:** `mkdocs serve`
-- **docs:build:** `mkdocs build`
-- **docs:deploy:** `mkdocs gh-deploy`
-- **release:** `semantic-release`
+Leveraging the [**Jekwwer/markdown-workspace**][jekwwer-markdown-workspace] environment,
+this project primarily utilizes Markdown for content development.
 
 ### Target Audience
 
@@ -157,18 +144,20 @@ The repository uses naming styles tailored to each file type:
 
 ### Configuration Files
 
-Key configuration files in the repository include:
+Key configuration files in the repository:
 
-- `.gitignore`: Specifies files and directories to exclude from version control.
-- `.editorconfig`: Defines coding styles across editors.
-- `.markdownlint.json` and `.markdownlintignore`: Establish Markdown linting rules and exclusions.
-- `.pre-commit-config.yaml`: Specifies pre-commit hooks.
-- `.prettierrc`: Contains formatting rules.
-- `.releaserc.js`: Configures the semantic release process and versioning.
-- `cspell.json`: Sets spelling rules for consistency.
-- `mkdocs.yml`: Configures MkDocs for building and deploying documentation.
-- `package.json`: Contains project metadata, scripts, and dependency definitions.
-- `package-lock.json`: Locks dependency versions to ensure consistent installations.
+- `.devcontainer/devcontainer.json`: Development container setup, including VS Code settings,
+  environment variables, and extensions.
+- `.gitignore`: Files and directories excluded from version control.
+- `.editorconfig`: Coding style settings across different editors.
+- `.markdownlint.json`: Markdown linting rules and exclusions.
+- `.pre-commit-config.yaml`: Pre-commit hooks.
+- `.prettierrc`: Formatting rules.
+- `.releaserc.js`: Semantic release process and versioning.
+- `cspell.json`: Spelling rules for consistency.
+- `mkdocs.yml`: MkDocs configuration file defining the documentation site structure, theme, navigation, and plugins.
+- `package.json`: Project metadata, scripts, and dependency definitions.
+- `package-lock.json`: Locked dependency versions for consistent installations.
 
 ### Assets and Resources
 
@@ -265,23 +254,42 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
   - **Indentation:** 2 spaces (4 in shell scripts)
   - **Line Endings:** Unix-style (`lf`)
   - **Charset:** UTF-8
-  - **Max Line Length:** 88 characters for code (120 for Markdown)
+  - **Max Line Length:** 88 characters (120 for Markdown)
   - **Final Newline:** Enforced
   - **Trailing Whitespace:** Trimmed (with specified exceptions)
 - **Note:**
   Contributors should use an editor that supports EditorConfig to automatically apply these settings.
 
-### Linting and Formatting Tools
+### Prettier
 
-- **Prettier:**
-  Formats code based on the configuration in `.prettierrc`:
-  - Enforces semicolons, single quotes, trailing commas, and a print width of 88 characters (except 120 for Markdown).
+- **Purpose:**
+  The `.prettierrc` file defines the project's code formatting rules for Prettier-supported files,
+  ensuring a consistent style across various file types by specifying:
+  - **Semicolons:** Enabled
+  - **Quote Style:** Single quotes preferred
+  - **Trailing Commas:** Added where possible
+  - **Tab Width:** 2 spaces (tabs are not used)
+  - **End of Line:** Unix-style (`lf`)
+  - **Print Width:** 88 characters
+    _(Note: Overrides are applied for Markdown files with a print width of 120, while JSON files have no enforced limit.)_
+- **Note:**
+  Prettier is integrated locally and runs as part of a pre-commit hook to automatically format code before commits.
+
+### Additional Linting and Formatting Tools
+
 - **Markdownlint:**
   Applies consistent style rules to Markdown files as configured in `.markdownlint.json` and `.markdownlintignore`.
 - **Pre-commit Hooks:**
-  The `.pre-commit-config.yaml` is set up to run various checks, including formatting and linting, before commits.
-- **Yamllint:**
-  Validates YAML files during the pre-commit process to ensure they adhere to defined formatting rules.
+  The project leverages pre-commit hooks to enforce code quality through automated checks.
+  Key tools integrated via pre-commit include:
+  - **pre-commit-hooks:**
+    Ensures proper AST parsing, fixes line endings and trailing whitespace, manages mixed line endings,
+    detects private keys, validates YAML and JSON syntax, checks for merge conflicts, detects case conflicts,
+    verifies executable shebangs.
+  - **markdownlint-cli & markdown-link-check:**
+    Enforce the style guide rules for Markdown files and validate links.
+  - **yamllint:**
+    Enforces style guide rules for YAML files.
 
 ## Documentation
 
@@ -376,6 +384,9 @@ Other external documentation is maintained in the `docs` directory.
 - **MkDocs:**
   External documentation is generated with MkDocs. The configuration is stored in the root-level `mkdocs.yml`,
   and the content is in the `docs` directory.
+- **cspell:**
+  A spellchecker designed for code and Markdown files.
+  It runs as a pre-commit hook and can also be executed via the npm script `npm run check:spelling`.
 
 #### Versioning Documentation
 

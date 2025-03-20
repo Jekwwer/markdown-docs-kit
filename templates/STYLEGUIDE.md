@@ -176,7 +176,7 @@ Include inline comments, block comments and the use of documentation tools (e.g.
 _[ADD_TEXT: Explain how EditorConfig is used to enforce consistent coding styles across editors.]_
 Highlight key settings defined in the `.editorconfig` file.
 
-### Linting and Formatting Tools
+### Additional Linting and Formatting Tools
 
 _[ADD_TEXT: List and describe the linting and formatting tools used in the project]_
 For example, Prettier, ESLint, Markdownlint.
