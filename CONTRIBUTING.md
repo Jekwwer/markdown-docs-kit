@@ -256,8 +256,30 @@ and may be synced fully or partially with the parent template as needed.
 
 ## Testing and Quality Assurance
 
-This repository does not include automated tests since its primary deliverables are Markdown document templates.
-Quality is maintained through manual reviews and adherence to established style guidelines and linting tools.
+This project uses a combination of manual and automated testing approaches inherited from the parent [**markdown-workspace**][jekwwer-markdown-workspace].
+For more details on the testing framework and automated processes, refer to the parent documentation.
+
+### Manual Testing
+
+Run the following scripts (see `package.json` for details) to verify code quality:
+
+- **check:links**: Scans Markdown files for broken URLs.
+- **check:spelling**: Checks files for typos.
+- **format:check**: Verifies code formatting.
+- **format:code**: Auto-formats files.
+- **generate:toc**: Generates a Table of Contents at each `[[toc]]` placeholder.
+- **lint:markdown**: Lints Markdown files.
+- **docs:serve**: Serves the documentation locally.
+- **docs:build**: Builds a static site from the Markdown documentation.
+- **docs:deploy**: Deploys the built documentation to GitHub Pages.
+
+### Automated Testing
+
+Automated checks run via pre-commit hooks in both CI and locally:
+
+- They enforce linting and formatting standards before commits.
+- In-editor autoformatting is active through VSCode settings in `.devcontainer/devcontainer.json`
+  (`formatOnPaste` & `formatOnSave`).
 
 ## Proposing Changes
 
