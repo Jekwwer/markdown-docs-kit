@@ -22,7 +22,7 @@ Highlight key functionalities and features that make this project unique and use
 
 ```sh
 git clone https://github.com/{{REPO_OWNER}}/{{REPO_NAME}}.git
-cd your-repo
+cd {{REPO_NAME}}
 npm install # or any other setup steps
 ```
 
