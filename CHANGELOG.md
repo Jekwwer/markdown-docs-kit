@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.6.0 - 2025-03-21
+### 🚀 New Features
+
+* **CONTRIBUTING.md:** add manual and automated testing scripts section ([655231d](https://github.com/Jekwwer/markdown-docs-kit/commit/655231d393db268bd62fdbfcf28b781ce35e2229))
+
+### 🐞 Bug Fixes
+
+* **templates:** update placeholder in README files ([0b5bf33](https://github.com/Jekwwer/markdown-docs-kit/commit/0b5bf3339ea0695ecbbb32e06b0eac3515f1ccb2))
+
+### 📖 Documentation
+
+* **CONTRIBUTING.md:** improve readability by adding a new line ([93ba887](https://github.com/Jekwwer/markdown-docs-kit/commit/93ba88786b865ad2a99a19caca8c05c21b1b5370))
+* **STYLEGUIDE.md:** reorganize sections and expand on details ([18c8714](https://github.com/Jekwwer/markdown-docs-kit/commit/18c87142bbdad327f1032c989c81b2a6ee4f9a8d))
+
+### 📦 Chores
+
+* **sync:** sync with markdown-workspace v1.8.2 ([9b95b9a](https://github.com/Jekwwer/markdown-docs-kit/commit/9b95b9a5f3995079e3deaaa395c180efe48e1c48))
+
 ## 1.5.2 - 2025-03-19
 ### 🐞 Bug Fixes
 
