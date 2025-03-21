@@ -87,7 +87,6 @@ This project targets developers and end users who require robust Markdown templa
 │   └── STYLEGUIDE.md                   │   └── # style guide template
 ├── .editorconfig                       ├── # editor configuration
 ├── .gitignore                          ├── # files to ignore in Git
-├── .markdownlintignore                 ├── # markdown lint ignore rules
 ├── .markdownlint.json                  ├── # markdown linting configuration
 ├── .pre-commit-config.yaml             ├── # pre-commit hook configuration
 ├── .prettierrc                         ├── # Prettier configuration
@@ -251,10 +250,11 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
 
 - **Purpose:**
   The `.editorconfig` file ensures consistent coding styles across all editors by specifying:
-  - **Indentation:** 2 spaces (4 in shell scripts)
+  - **Indentation:** 2 spaces
   - **Line Endings:** Unix-style (`lf`)
   - **Charset:** UTF-8
-  - **Max Line Length:** 88 characters (120 for Markdown)
+  - **Max Line Length:** 88 for code, 120 for Markdown
+    _(Note: `.editorconfig` provides these values for reference; enforcement is handled by other tools.)_
   - **Final Newline:** Enforced
   - **Trailing Whitespace:** Trimmed (with specified exceptions)
 - **Note:**
@@ -277,15 +277,13 @@ These settings are enforced by the `.editorconfig` and `.prettierrc` configurati
 
 ### Additional Linting and Formatting Tools
 
-- **Markdownlint:**
-  Applies consistent style rules to Markdown files as configured in `.markdownlint.json` and `.markdownlintignore`.
 - **Pre-commit Hooks:**
   The project leverages pre-commit hooks to enforce code quality through automated checks.
   Key tools integrated via pre-commit include:
   - **pre-commit-hooks:**
     Ensures proper AST parsing, fixes line endings and trailing whitespace, manages mixed line endings,
     detects private keys, validates YAML and JSON syntax, checks for merge conflicts, detects case conflicts,
-    verifies executable shebangs.
+    verifies executable shebangs, fixes formatting, and sorts `requirements.txt`.
   - **markdownlint-cli & markdown-link-check:**
     Enforce the style guide rules for Markdown files and validate links.
   - **yamllint:**
@@ -382,15 +380,18 @@ Other external documentation is maintained in the `docs` directory.
 #### Tools
 
 - **MkDocs:**
-  External documentation is generated with MkDocs. The configuration is stored in the root-level `mkdocs.yml`,
-  and the content is in the `docs` directory.
+  Generates external documentation. The configuration is stored in the root-level `mkdocs.yml`,
+  and the content is maintained in the `docs` directory.
+- **markdown-link-check:**
+  Validates hyperlinks within Markdown files.
+- **markdownlint:**
+  Enforces consistent style and formatting in Markdown documents.
 - **cspell:**
   A spellchecker designed for code and Markdown files.
-  It runs as a pre-commit hook and can also be executed via the npm script `npm run check:spelling`.
-
-#### Versioning Documentation
-
-- Documentation versioning is not implemented yet but will be managed using MkDocs in alignment with project releases.
+  It runs as a pre-commit hook and can also be executed via the npm script `npm run spell:check`.
+- **Custom TOC Generator:**
+  Provided by `scripts/generate-toc.js`, this script automatically replaces `[[toc]]` placeholder with
+  a table of contents for Markdown documents.
 
 #### Consistency and Updates
 

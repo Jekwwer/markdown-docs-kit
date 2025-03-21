@@ -245,9 +245,9 @@ and may be synced fully or partially with the parent template as needed.
 
 - There are no build scripts for the templates.
 - External documentation build commands are defined in `package.json`:
-  - `"docs:serve": "mkdocs serve"`: Serve documentation locally.
-  - `"docs:build": "mkdocs build"`: Build the documentation.
-  - `"docs:deploy": "mkdocs gh-deploy"`: Deploy documentation (restricted to maintainers).
+  - **docs:serve**: Serve documentation locally.
+  - **docs:build**: Build the documentation.
+  - **docs:deploy**: Deploy documentation (restricted to maintainers).
 
 ### Environment Configuration
 
@@ -257,16 +257,15 @@ and may be synced fully or partially with the parent template as needed.
 ## Testing and Quality Assurance
 
 This project uses a combination of manual and automated testing approaches inherited from the parent [**markdown-workspace**][jekwwer-markdown-workspace].
-For more details on the testing framework and automated processes, refer to the parent documentation.
 
 ### Manual Testing
 
 Run the following scripts (see `package.json` for details) to verify code quality:
 
-- **check:links**: Scans Markdown files for broken URLs.
-- **check:spelling**: Checks files for typos.
+- **links:check**: Scans Markdown files for broken URLs.
+- **spell:check**: Checks files for typos.
 - **format:check**: Verifies code formatting.
-- **format:code**: Auto-formats files.
+- **format:write**: Auto-formats files.
 - **generate:toc**: Generates a Table of Contents at each `[[toc]]` placeholder.
 - **lint:markdown**: Lints Markdown files.
 - **docs:serve**: Serves the documentation locally.

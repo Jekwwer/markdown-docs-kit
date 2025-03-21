@@ -75,7 +75,6 @@ For example, "This project targets developers, end users, and/or specific stakeh
 │   └── index.md                        │   └── # main documentation index
 ├── .editorconfig                       ├── # editor configuration
 ├── .gitignore                          ├── # files to ignore in Git
-├── .markdownlintignore                 ├── # markdown lint ignore rules
 ├── .markdownlint.json                  ├── # markdown linting configuration
 ├── .pre-commit-config.yaml             ├── # pre-commit hook configuration
 ├── .prettierrc                         ├── # Prettier configuration
