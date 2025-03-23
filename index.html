@@ -1,0 +1,756 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://jekwwer.github.io/markdown-docs-kit/">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>Jekwwer's Markdown Docs Kit</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.4af4bdda.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#markdown-docs-kit" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Jekwwer&#39;s Markdown Docs Kit" class="md-header__button md-logo" aria-label="Jekwwer's Markdown Docs Kit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Jekwwer's Markdown Docs Kit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Jekwwer&#39;s Markdown Docs Kit" class="md-nav__button md-logo" aria-label="Jekwwer's Markdown Docs Kit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Jekwwer's Markdown Docs Kit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Overview 🚀
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Overview 🚀">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current Contents
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites ⚙️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage 🛠️
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage 🛠️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-the-deployment-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run the Deployment Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-setup-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manual Setup (Optional)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Deployment
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potential-future-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potential Future Documents 📜
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributing 👥
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License 🛡️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contact 📬
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contact 📬">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Overview 🚀
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Overview 🚀">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#current-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Current Contents
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites ⚙️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usage 🛠️
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage 🛠️">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#run-the-deployment-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run the Deployment Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manual-setup-optional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manual Setup (Optional)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-deployment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Deployment
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potential-future-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Potential Future Documents 📜
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contributing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contributing 👥
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License 🛡️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contact 📬
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Contact 📬">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="markdown-docs-kit">Markdown Docs Kit</h1>
+<p><img alt="GitHub Release" src="https://img.shields.io/github/v/release/Jekwwer/markdown-docs-kit?logo=github&amp;link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest" />
+<img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/Jekwwer/markdown-docs-kit?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest" />
+<img alt="GitHub commits since latest release" src="https://img.shields.io/github/commits-since/Jekwwer/markdown-docs-kit/latest?link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Freleases%2Flatest" />
+<img alt="Libraries.io dependency status for GitHub repo" src="https://img.shields.io/librariesio/github/Jekwwer/markdown-docs-kit?logo=librariesdotio&amp;logoColor=%23FFFFFF" />
+<img alt="Issues" src="https://img.shields.io/github/issues/Jekwwer/markdown-docs-kit?logo=github&amp;link=https%3A%2F%2Fgithub.com%2FJekwwer%2Fmarkdown-docs-kit%2Fissues" />
+<img alt="Maintained" src="https://img.shields.io/maintenance/yes/2025" />
+<img alt="License: CC BY 4.0" src="https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg" /></p>
+<h2 id="project-overview">Project Overview 🚀</h2>
+<p>This repository contains common documentation files that can be reused across multiple projects
+to maintain consistency and streamline the setup process.</p>
+<h3 id="current-contents">Current Contents</h3>
+<ul>
+<li><code>.github/FUNDING.yml</code>: Information on funding options and sponsorship links.</li>
+<li><code>.github/PULL_REQUEST_TEMPLATE.md</code>: Default pull request template for general contributions.</li>
+<li><code>.github/PULL_REQUEST_TEMPLATE/*</code>: Templates for specific pull requests, such as <code>bugfix</code>, <code>docs</code>, and <code>feature</code>.</li>
+<li><code>.github/ISSUE_TEMPLATE/*</code>: Templates for reporting bugs, requesting features, and asking questions.</li>
+<li><code>CODE_OF_CONDUCT.md</code>: Standards for behavior within the community.</li>
+<li><code>CONTRIBUTING.md</code>: Guidelines on how to contribute to the project.</li>
+<li><code>README.md</code>: A general template for project README, outlining setup instructions, usage,
+  and contribution guidelines.</li>
+<li><code>SCHOOL_PROJECT_README.md</code>: A specialized README template for educational or school-related projects.</li>
+<li><code>SECURITY.md</code>: Guidelines for securely reporting vulnerabilities and related contact details.</li>
+<li><code>STYLEGUIDE.md</code>: Coding and documentation conventions for consistency and maintainability.</li>
+</ul>
+<h2 id="prerequisites">Prerequisites ⚙️</h2>
+<p>Make sure the following tools are installed on your system:</p>
+<ul>
+<li><code>curl</code></li>
+<li><code>unzip</code></li>
+<li><a href="https://stedolan.github.io/jq"><code>jq</code></a></li>
+<li><a href="https://github.com/mikefarah/yq"><code>yq</code></a></li>
+</ul>
+<h2 id="usage">Usage 🛠️</h2>
+<h3 id="run-the-deployment-script">Run the Deployment Script</h3>
+<p>Execute the <code>deploy.sh</code> script to download the latest documentation and apply configurations:</p>
+<pre><code class="language-bash">bash deploy.sh --target &lt;target_directory&gt; [--config &lt;path_to_config.yml&gt;]
+</code></pre>
+<p><strong>Options:</strong></p>
+<ul>
+<li><code>--target &lt;target_directory&gt;</code>: Specifies where the documentation will be deployed.</li>
+<li><code>--config &lt;path_to_config.yml&gt;</code> <em>(optional)</em>: Path to a custom configuration file.
+  Defaults to <code>config.yml</code> in the current directory.</li>
+<li>Additionally, you can override repository details using <code>--repo-owner</code> and <code>--repo-name</code> if necessary.</li>
+</ul>
+<h3 id="manual-setup-optional">Manual Setup (Optional)</h3>
+<p>If you prefer, manually clone the repository and copy the required documentation files:</p>
+<pre><code class="language-bash">git clone https://github.com/Jekwwer/markdown-docs-kit.git
+</code></pre>
+<p>Then customize the necessary files for your project.</p>
+<h3 id="example-deployment">Example Deployment</h3>
+<p>To deploy documentation to a new repository:</p>
+<pre><code class="language-bash">bash deploy.sh --target ../my-new-repo
+</code></pre>
+<p>This will:</p>
+<ul>
+<li>Fetch the latest release.</li>
+<li>Replace placeholders using <code>config.yml</code>.</li>
+<li>Deploy files to <code>../my-new-repo</code>, maintaining the folder structure.</li>
+</ul>
+<h2 id="potential-future-documents">Potential Future Documents 📜</h2>
+<p>This table serves as a reference for adding new documents to meet future project requirements as they arise.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Document Name</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ACKNOWLEDGMENTS.md</strong></td>
+<td>Recognizes contributions from libraries, frameworks, or individuals.</td>
+</tr>
+<tr>
+<td><strong>ARCHITECTURE.md</strong></td>
+<td>Offers an overview of the project’s structure and design decisions.</td>
+</tr>
+<tr>
+<td><strong>BUILD.md</strong></td>
+<td>Instructions for building the project, including dependencies and troubleshooting.</td>
+</tr>
+<tr>
+<td><strong>CONFIG.md</strong></td>
+<td>Documents configuration options, environment variables, and setup instructions.</td>
+</tr>
+<tr>
+<td><strong>CONTRIBUTING.md</strong></td>
+<td>Guidelines for contributing to the project: coding standards, PRs, and issue reports.</td>
+</tr>
+<tr>
+<td><strong>CONVENTIONS.md</strong></td>
+<td>Describes naming patterns, coding standards, or folder structures for consistency.</td>
+</tr>
+<tr>
+<td><strong>DEPENDENCIES.md</strong></td>
+<td>Lists key dependencies and their versions for compatibility insights.</td>
+</tr>
+<tr>
+<td><strong>FAQ.md</strong></td>
+<td>Answers frequently asked questions to save time and clarify common concerns.</td>
+</tr>
+<tr>
+<td><strong>GLOSSARY.md</strong></td>
+<td>Defines domain-specific terms and abbreviations for clarity.</td>
+</tr>
+<tr>
+<td><strong>GOVERNANCE.md</strong></td>
+<td>Outlines roles, responsibilities, and decision-making processes for maintainers.</td>
+</tr>
+<tr>
+<td><strong>INSTALL.md</strong></td>
+<td>Detailed installation instructions for projects with complex setup requirements.</td>
+</tr>
+<tr>
+<td><strong>MIGRATION_GUIDE.md</strong></td>
+<td>Helps users upgrade between major versions by detailing changes and migration steps.</td>
+</tr>
+<tr>
+<td><strong>ROADMAP.md</strong></td>
+<td>Provides insights into the project’s future direction and priorities.</td>
+</tr>
+<tr>
+<td><strong>RELEASE.md</strong></td>
+<td>Instructions for managing and packaging project releases.</td>
+</tr>
+<tr>
+<td><strong>SUPPORT.md</strong></td>
+<td>Provides resources for getting help, including forums, FAQs, or troubleshooting guides.</td>
+</tr>
+<tr>
+<td><strong>TESTING.md</strong></td>
+<td>Explains testing frameworks, setup, and commands for running tests.</td>
+</tr>
+<tr>
+<td><strong>TODO.md</strong></td>
+<td>Lists future plans, pending features, or unresolved issues for transparency.</td>
+</tr>
+<tr>
+<td><strong>USAGE.md</strong></td>
+<td>Advanced usage examples, command-line options, or API details.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="contributing">Contributing 👥</h2>
+<p>Contributions are welcome! Please read the <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/CONTRIBUTING.md">Contributing Guidelines</a> and check the <a href="https://github.com/Jekwwer/markdown-docs-kit/issues">Issues</a> page.</p>
+<h2 id="license">License 🛡️</h2>
+<p>This repository is licensed under <strong>Creative Commons Attribution 4.0 (CC BY 4.0)</strong>
+for the Markdown templates located in the <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/templates"><code>templates/</code></a> directory.
+You <strong>must</strong> provide attribution when using them (see <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE">LICENSE</a>).</p>
+<p>The development environment (scripts, configuration, and tooling) is based on
+<a href="https://github.com/Jekwwer/markdown-workspace">markdown-workspace</a> and is licensed under <strong>MIT</strong> (see <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/MIT-LICENSE">MIT-LICENSE</a>).</p>
+<h2 id="contact">Contact 📬</h2>
+<p>For questions, reach out via <a href="mailto:evgenii.shiliaev@jekwwer.com">evgenii.shiliaev@jekwwer.com</a> or open an <a href="https://github.com/Jekwwer/markdown-docs-kit/issues">issue</a>.</p>
+<hr />
+<h3 id="notes">Notes</h3>
+<p>This repository is synchronized with the <a href="https://github.com/Jekwwer/markdown-workspace">Markdown Workspace</a>,
+currently at version <a href="https://github.com/Jekwwer/markdown-workspace/tree/v1.6.0">v1.6.0</a>.
+The repository serves as a development foundation for working on markdown documentation effectively.</p>
+<hr />
+<p>This document is based on a template by <a href="https://github.com/Jekwwer">Evgenii Shiliaev</a>,
+licensed under <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/LICENSE">CC BY 4.0</a>. All additional content is licensed under <a href="https://github.com/Jekwwer/markdown-docs-kit/blob/main/MIT-LICENSE">MIT</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
